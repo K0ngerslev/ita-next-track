@@ -6,9 +6,9 @@ import { play } from './player.js';
 
 const db = await connect();
 const tracks = await loadTracks();
-const currentTracks = new Map(); // maps partyIds to index in tracks
+const currentTracks = new Map(); // maps partyId to index in tracks
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3003;
 const server = express();
 
 server.use(express.static('frontend'));
