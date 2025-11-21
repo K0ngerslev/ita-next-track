@@ -48,10 +48,10 @@ herunder formentlig information om brugerne
 
 ### backend/
 
-`server.js`/
+`server.js`\
 Den kender I. Skelettet definerer ét slutpunkt, `/api/party/:partyId/currentTrack`, sådan at man kan få information om det track, der lige nu spilles til en given fest. Hver fest har en kode, som er en tekststreng af fire hex-cifre. Til festen `a3f7` spilles lige nu tracket `/api/party/a3f7/currentTrack`.
 
-`player.js`/
+`player.js`\
 Simulerer integration med nærmeste højttaler. Koden definerer én funktion, `play`. I kan se i `server.js`, hvordan den bruges.
 Det er ikke meningen, at I skal ændre noget i `player.js`.
 
