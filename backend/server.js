@@ -6,7 +6,7 @@ import { play } from './player.js';
 
 const db = await connect();
 const tracks = await loadTracks();
-const currentTracks = new Map(); // maps partyId to index in tracks
+const currentTracks = new Map(); // maps partyCode to index in tracks
 
 const port = process.env.PORT || 3003;
 const server = express();
@@ -14,15 +14,15 @@ const server = express();
 server.use(express.static('frontend'));
 server.use(express.json());
 server.use(onEachRequest);
-server.get('/api/party/:partyId/currentTrack', onGetCurrentTrackAtParty);
-server.get(/\/[a-zA-Z0-9-_/]+/, onFallback); // serve index.html an any other path
+server.get('/api/party/:partyCode/currentTrack', onGetCurrentTrackAtParty);
+server.get(/\/[a-zA-Z0-9-_/]+/, onFallback); // serve index.html on any other simple path
 server.listen(port, onServerReady);
 
 async function onGetCurrentTrackAtParty(request, response) {
-    const partyId = request.params.partyId;
-    let trackIndex = currentTracks.get(partyId);
+    const partyCode = request.params.partyCode;
+    let trackIndex = currentTracks.get(partyCode);
     if (trackIndex === undefined) {
-        trackIndex = pickNextTrackFor(partyId);
+        trackIndex = pickNextTrackFor(partyCode);
     }
     const track = tracks[trackIndex];
     response.json(track);
@@ -49,10 +49,10 @@ async function loadTracks() {
     return dbResult.rows;
 }
 
-function pickNextTrackFor(partyId) {
+function pickNextTrackFor(partyCode) {
     const trackIndex = Math.floor(Math.random() * tracks.length)
-    currentTracks.set(partyId, trackIndex);
+    currentTracks.set(partyCode, trackIndex);
     const track = tracks[trackIndex];
-    play(partyId, track.track_id, track.duration, Date.now(), () => currentTracks.delete(partyId));
+    play(partyCode, track.track_id, track.duration, Date.now(), () => currentTracks.delete(partyCode));
     return trackIndex;
 }

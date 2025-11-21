@@ -49,7 +49,7 @@ herunder formentlig information om brugerne
 ## backend/
 
 `server.js`\
-Den kender I. Skelettet definerer ét slutpunkt, `/api/party/:partyId/currentTrack`, sådan at man kan få information om det track, der lige nu spilles til en given fest. Hver fest har en kode, som er en tekststreng af fire hex-cifre. Til festen `a3f7` spilles lige nu tracket `/api/party/a3f7/currentTrack`.
+Den kender I. Skelettet definerer ét slutpunkt, `/api/party/:partyCode/currentTrack`, sådan at man kan få information om det track, der lige nu spilles til en given fest. Hver fest har en kode, som er en tekststreng af fire hex-cifre. Til festen `a3f7` spilles lige nu tracket `/api/party/a3f7/currentTrack`.
 
 Serveren vedligeholder en ordbog, `currentTracks`, hvor nøgler er party-koder og værdier er tracks (mere præcist: indices i en vektor af tracks, som serveren har hentet i databasen).
 

@@ -5,13 +5,13 @@ const players = new Map();
 
 // Call this function to play the specified track at the specified party.
 // Parameters:
-// - partyId: a string identifying the party at which the track is being played
+// - partyCode: a string identifying the party at which the track is being played
 // - trackId: the ID of the track, a string
 // - duration: the duration of the track in milliseconds, a number
 // - started: the timestamp at which the playback started, a Date
 // - callbackWhenDone: a function of zero arguments, to be called when playback is done
-export function play(partyId, trackId, duration, started, callbackWhenDone) {
-    players.set(partyId, {
+export function play(partyCode, trackId, duration, started, callbackWhenDone) {
+    players.set(partyCode, {
         trackId,
         duration,
         started,

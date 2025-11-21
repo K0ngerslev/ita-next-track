@@ -1,15 +1,15 @@
 addEventListener("DOMContentLoaded", () => {
-    let partyId = establishPartyId();
-    history.replaceState(null, '', partyId);
+    let partyCode = establishPartyCode();
+    history.replaceState(null, '', partyCode);
     addEventListener('popstate', () => {
-        partyId = establishPartyId();
+        partyCode = establishPartyCode();
     });
-    pollForCurrentTrackAt(partyId);
+    pollForCurrentTrackAt(partyCode);
 });
 
-// Extract party ID from browser's address field
+// Extract party code from browser's address field
 // or make one up, if it doesn't have one
-function establishPartyId() {
+function establishPartyCode() {
     const pathname = window.location.pathname;
     if (pathname.startsWith('/') && pathname.length > 1) {
         return pathname.substring(1);
@@ -19,15 +19,15 @@ function establishPartyId() {
 }
 
 // Start polling loop, repeated asking server for the current track
-async function pollForCurrentTrackAt(partyId) {
-    const path = `/api/party/${partyId}/currentTrack`;
+async function pollForCurrentTrackAt(partyCode) {
+    const path = `/api/party/${partyCode}/currentTrack`;
     const response = await fetch(path);
     if (!response.ok) {
         throw new Error(`GET ${path} failed with ${response.status} ${response.statusText}`)
     }
     const track = await response.json();
-    renderCurrentTrack(partyId, track);
-    setTimeout(() => pollForCurrentTrackAt(partyId), 1000); // refresh every 1000ms
+    renderCurrentTrack(partyCode, track);
+    setTimeout(() => pollForCurrentTrackAt(partyCode), 1000); // refresh every 1000ms
 }
 
 // update HTML to reflect party ID and current track
