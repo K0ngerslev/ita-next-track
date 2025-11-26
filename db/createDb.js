@@ -19,7 +19,7 @@ await db.query(`
 		release_year int not null,
 	    duration real not null
     )
-`);
+`);	
 console.log('Tables recreated.');
 
 console.log('Importing data from CSV files...');
