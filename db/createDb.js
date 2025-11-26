@@ -16,8 +16,8 @@ await db.query(`
 	    title text not null,
 	    artist text not null,
 		genre text not null,
-		release_year not null,
-	    duration int not null
+		release_year int not null,
+	    duration real not null
     )
 `);
 console.log('Tables recreated.');
