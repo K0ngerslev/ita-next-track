@@ -15,6 +15,8 @@ await db.query(`
         track_id bigint primary key,
 	    title text not null,
 	    artist text not null,
+		genre tect not null,
+		release_year not null,
 	    duration int not null
     )
 `);

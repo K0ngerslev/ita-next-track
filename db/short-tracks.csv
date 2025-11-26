@@ -1,21 +1,101 @@
-track_id,title,artist,duration
-7399,Blinding Lights,The Weeknd,15523
-4733,Shape of You,Ed Sheeran,16697
-4256,Uptown Funk,Mark Ronson ft. Bruno Mars,26310
-8642,Closer,The Chainsmokers ft. Halsey,22826
-4714,Levitating,Dua Lipa,22575
-9927,Drivers License,Olivia Rodrigo,29948
-7777,Bad Guy,Billie Eilish,25582
-1080,Happier Than Ever,Billie Eilish,25866
-9901,Dance Monkey,Tones and I,17861
-9433,Old Town Road,Lil Nas X,19109
-5083,Watermelon Sugar,Harry Styles,29419
-7030,Sunflower,Post Malone & Swae Lee,24604
-7554,Peaches,Justin Bieber,21548
-6818,Save Your Tears,The Weeknd,17298
-6718,Stay,The Kid LAROI & Justin Bieber,24961
-4843,As It Was,Harry Styles,16963
-2577,Anti-Hero,Taylor Swift,17042
-9045,Good 4 U,Olivia Rodrigo,16917
-4836,Montero (Call Me By Your Name),Lil Nas X,22671
-9610,Shivers,Ed Sheeran,21722
+track_id,title,artist,genre,release_year,duration
+1,Billie Jean,Michael Jackson,Pop,1982,19.6
+2,Bohemian Rhapsody,Queen,Rock,1975,23.7
+3,Smells Like Teen Spirit,Nirvana,Rock,1991,20.1
+4,Hey Jude,The Beatles,Rock,1968,28.7
+5,Shape of You,Ed Sheeran,Pop,2017,15.5
+6,Blinding Lights,The Weeknd,Pop,2019,13.3
+7,Stairway to Heaven,Led Zeppelin,Rock,1971,32.1
+8,Sweet Child O' Mine,Guns N' Roses,Rock,1987,23.7
+9,Lose Yourself,Eminem,Hip-Hop,2002,21.7
+10,Hotel California,Eagles,Rock,1976,26.1
+11,Imagine,John Lennon,Rock,1971,12.2
+12,Thriller,Michael Jackson,Pop,1982,23.8
+13,Rolling in the Deep,Adele,Pop,2010,15.2
+14,Juicy,The Notorious B.I.G.,Hip-Hop,1994,20.1
+15,Wonderwall,Oasis,Rock,1995,17.2
+16,Uptown Funk,Mark Ronson ft. Bruno Mars,Pop,2014,18.0
+17,Old Town Road,Lil Nas X ft. Billy Ray Cyrus,Hip-Hop,2019,7.5
+18,Someone Like You,Adele,Pop,2011,19.0
+19,Bad Guy,Billie Eilish,Pop,2019,12.9
+20,Hallelujah,Leonard Cohen,Folk,1984,18.2
+21,Creep,Radiohead,Rock,1992,15.9
+22,All of Me,John Legend,R&B,2013,17.9
+23,Despacito,Luis Fonsi & Daddy Yankee,Latin,2017,15.3
+24,One Dance,Drake ft. Wizkid & Kyla,Hip-Hop,2016,11.6
+25,Closer,The Chainsmokers ft. Halsey,Pop,2016,16.3
+26,Sicko Mode,Travis Scott,Hip-Hop,2018,20.8
+27,Gangnam Style,PSY,Pop,2012,14.6
+28,Roar,Katy Perry,Pop,2013,14.9
+29,Shake It Off,Taylor Swift,Pop,2014,14.6
+30,Perfect,Ed Sheeran,Pop,2017,17.5
+31,Rockstar,Post Malone ft. 21 Savage,Hip-Hop,2017,14.5
+32,Havana,Camila Cabello ft. Young Thug,Latin,2017,14.5
+33,Sunflower,Post Malone & Swae Lee,Hip-Hop,2018,10.5
+34,Believer,Imagine Dragons,Rock,2017,13.6
+35,Thank U Next,Ariana Grande,Pop,2018,14.1
+36,7 Rings,Ariana Grande,Pop,2019,11.9
+37,Dance Monkey,Tones and I,Pop,2019,13.9
+38,Watermelon Sugar,Harry Styles,Pop,2019,11.6
+39,Levitating,Dua Lipa,Pop,2020,13.5
+40,Stay,The Kid LAROI & Justin Bieber,Pop,2021,9.4
+41,Heat Waves,Glass Animals,Rock,2020,15.9
+42,Industry Baby,Lil Nas X ft. Jack Harlow,Hip-Hop,2021,14.1
+43,As It Was,Harry Styles,Pop,2022,11.1
+44,Anti-Hero,Taylor Swift,Pop,2022,13.4
+45,Unholy,Sam Smith & Kim Petras,Pop,2022,10.4
+46,Flowers,Miley Cyrus,Pop,2023,13.3
+47,Calm Down,Rema & Selena Gomez,Hip-Hop,2022,15.9
+48,Kill Bill,SZA,R&B,2022,10.3
+49,Creepin',Metro Boomin, The Weeknd & 21 Savage,R&B,2022,14.7
+50,Last Night,Morgan Wallen,Country,2023,10.9
+51,Like a Prayer,Madonna,Pop,1989,22.8
+52,Purple Rain,Prince,Rock,1984,33.8
+53,Johanna,Radiohead ft. Thom Yorke,Rock,2000,20.1
+54,November Rain,Guns N' Roses,Rock,1991,35.8
+55,Enter Sandman,Metallica,Rock,1991,22.1
+56,Never Gonna Give You Up,Rick Astley,Pop,1987,14.3
+57,Take On Me,a-ha,Pop,1985,15.2
+58,Every Breath You Take,The Police,Rock,1983,16.9
+59,Sweet Dreams (Are Made of This),Eurythmics,Pop,1983,14.5
+60,Livin' on a Prayer,Bon Jovi,Rock,1986,16.7
+61,Don't Stop Believin',Journey,Rock,1981,16.7
+62,Back in Black,AC/DC,Rock,1980,17.0
+63,With or Without You,U2,Rock,1987,19.7
+64,I Want to Hold Your Hand,The Beatles,Rock,1963,9.7
+65,Karma Police,Radiohead,Rock,1997,17.7
+66,No Woman No Cry,Bob Marley & The Wailers,Reggae,1975,28.6
+67,Redemption Song,Bob Marley & The Wailers,Reggae,1980,15.4
+68,Paranoid Android,Radiohead,Rock,1997,25.7
+69,Where Is My Mind?,Pixies,Rock,1988,15.5
+70,Black Hole Sun,Soundgarden,Rock,1994,21.0
+71,Chop Suey!,System of a Down,Rock,2001,13.4
+72,Mr. Brightside,The Killers,Rock,2004,14.8
+73,Seven Nation Army,The White Stripes,Rock,2003,15.7
+74,Hey Ya!,OutKast,Hip-Hop,2003,15.9
+75,Clocks,Coldplay,Rock,2002,17.3
+76,In the End,Linkin Park,Rock,2001,14.5
+77,Numb,Linkin Park,Rock,2003,12.5
+78,Umbrella,Rihanna ft. Jay-Z,Pop,2007,18.4
+79,Poker Face,Lady Gaga,Pop,2008,15.8
+80,Single Ladies (Put a Ring on It),Beyoncé,R&B,2008,12.9
+81,Rehab,Amy Winehouse,R&B,2006,14.3
+82,Crazy in Love,Beyoncé ft. Jay-Z,R&B,2003,15.8
+83,Halo,Beyoncé,R&B,2008,16.7
+84,Use Somebody,Kings of Leon,Rock,2008,15.3
+85,Sex on Fire,Kings of Leon,Rock,2008,13.5
+86,I Gotta Feeling,The Black Eyed Peas,Pop,2009,18.9
+87,Bad Romance,Lady Gaga,Pop,2009,19.7
+88,Fireflies,Owl City,Pop,2009,15.3
+89,Empire State of Mind,Jay-Z ft. Alicia Keys,Hip-Hop,2009,18.6
+90,Tik Tok,Ke$ha,Pop,2009,13.3
+91,Somebody That I Used to Know,Gotye ft. Kimbra,Pop,2011,16.4
+92,Call Me Maybe,Carly Rae Jepsen,Pop,2012,12.8
+93,We Are Young,fun. ft. Janelle Monáe,Pop,2011,16.8
+94,Get Lucky,Daft Punk ft. Pharrell Williams,Pop,2013,24.7
+95,Happy,Pharrell Williams,Pop,2013,15.5
+96,All About That Bass,Meghan Trainor,Pop,2014,12.8
+97,Thinking Out Loud,Ed Sheeran,Pop,2014,18.8
+98,See You Again,Wiz Khalifa ft. Charlie Puth,Pop,2015,15.3
+99,Hello,Adele,Pop,2015,19.7
+100,Love Yourself,Justin Bieber,Pop,2015,15.6
