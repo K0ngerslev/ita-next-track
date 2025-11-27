@@ -7,7 +7,67 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     </head>
     <body>
-        <div id="content"></div>
+    <div class="player">
+    <div class="header">
+      <div class="gear">Settings</div>
+      <button class="shuffle">Shuffle</button>
+    </div>
+     <div class="filters">
+      <button class="filter-btn">Genre</button>
+      <button class="filter-btn">Year</button>
+    </div>
+
+    <div class="lists">
+      <div class="genre-list">
+        <span class="hiphop">HipHop</span>
+        <span class="pop">Pop</span>
+        <span class="jazz">Jazz</span>
+        <span class="metal">Metal</span>
+        <span class="classical">Classical</span>
+        <span class="country">Country</span>
+        <span class="disco">Disco</span>
+        <span class="techno">Techno</span>
+        <span class="reggae">Reggae</span>
+      </div>
+      <div class="year-list">
+        <span class="y1960">1960</span>
+        <span class="y1970">1970</span>
+        <span class="y1980">1980</span>
+        <span class="y1990">1990</span>
+        <span class="y2000">2000</span>
+        <span class="y2010">2010</span>
+        <span class="y2020">2020</span>
+      </div>
+    </div>
+
+    <button class="confirm">Confirm</button>
+
+    <div class="now-playing">
+      <div id="currentTrack">California Love by Tupac</div>
+      
+      <div class="progress-container" id="progressContainer">
+        <div class="progress" id="progress"></div>
+      </div>
+      <div class="time">
+        <span id="currentTime">00:00</span>
+        <span>02:00</span>
+      </div>
+
+      <div class="controls">
+        <button class="play-pause" id="playPause">Play</button>
+        <button class="next">Next</button>
+      </div>
+    </div>
+
+    <div class="up-next">
+      <div>Up Next</div>
+      <div>
+        <div id="nextTrack">Without Me by Eminem</div>
+        <span class="queue-icons">Like Dislike Skip</span>
+      </div>
+    </div>
+  </div>
+        
     </body>
     <script src="index.js" type="module"></script>
 </html>
