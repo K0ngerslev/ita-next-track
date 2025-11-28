@@ -70,18 +70,18 @@ body {
 }
 
 .genre-list span { display: block; }
-.year-list span { display: block; text-align: right; }
+.year-list span { display: block; text-align: left; }
 
 /* Colors exactly like in the screenshot */
-.hiphop, .y1960 { color: #39ff74; }
-.pop, .y1970     { color: #b9ff4a; }
-.jazz, .y1980    { color: #ffd84a; }
-.metal, .y1990   { color: #ff8c4a; }
-.classical, .y2000 { color: #ff4a4a; }
-.country, .y2010 { color: #4a9eff; }
-.disco, .y2020   { color: #d14aff; }
-.techno          { color: #4affd1; }
-.reggae          { color: #ffd14a; }
+.hiphop, .y1960 { color: #ffffff; }
+.pop, .y1970     { color: #ffffff; }
+.jazz, .y1980    { color: #ffffff; }
+.metal, .y1990   { color: #ffffff; }
+.classical, .y2000 { color: #ffffff; }
+.country, .y2010 { color: #ffffff; }
+.disco, .y2020   { color: #ffffff; }
+.techno          { color: #ffffff; }
+.reggae          { color: #ffffff; }
 
 .confirm {
   background: #39ff74;
