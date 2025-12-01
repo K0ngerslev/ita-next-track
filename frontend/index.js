@@ -81,4 +81,4 @@ setInterval(function () {
 }, 500);
 
 // Start with the correct time showing (00:59 in the screenshot)
-moveProgressTo(49); // 49% ≈ 59 seconds of a 120-second song
+moveProgressTo(0); // 49% ≈ 59 seconds of a 120-second song
