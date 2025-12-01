@@ -9,16 +9,13 @@
     <body>
     <div class="player">
     <div class="header">
-      <div class="gear">Settings</div>
+      <div><img src="img/gear2.png" id="gear" width="40" style="cursor: pointer;"></div>
       <button class="shuffle">Shuffle</button>
     </div>
-     <div class="filters">
-      <button class="filter-btn">Genre</button>
-      <button class="filter-btn">Year</button>
-    </div>
+     
 
-    <div class="filters">
-      <!-- Genre Column -->
+    <div id="filters" class="hidden">
+      <!-- Genre  -->
       <div class="filter-group">
         <div class="filter-title">Genre</div>
         <div class="options">
@@ -34,7 +31,7 @@
         </div>
       </div>
 
-      <!-- Year Column -->
+      <!-- Year  -->
       <div class="filter-group">
         <div class="filter-title">Year</div>
         <div class="options">
@@ -48,8 +45,9 @@
         </div>
       </div>
     </div>
-
     <button class="confirm-btn">Confirm</button>
+
+    
 
     <div class="now-playing">
       <div id="currentTrack">California Love by Tupac</div>
