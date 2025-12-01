@@ -17,30 +17,39 @@
       <button class="filter-btn">Year</button>
     </div>
 
-    <div class="lists">
-      <div class="genre-list">
-        <span class="hiphop">HipHop</span>
-        <span class="pop">Pop</span>
-        <span class="jazz">Jazz</span>
-        <span class="metal">Metal</span>
-        <span class="classical">Classical</span>
-        <span class="country">Country</span>
-        <span class="disco">Disco</span>
-        <span class="techno">Techno</span>
-        <span class="reggae">Reggae</span>
+    <div class="filters">
+      <!-- Genre Column -->
+      <div class="filter-group">
+        <div class="filter-title">Genre</div>
+        <div class="options">
+          <label><input type="checkbox" class="filter-checkbox" data-group="genre" value="Hip-Hop"> Hip-Hop</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="genre" value="Pop"> Pop</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="genre" value="Rock"> Rock</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="genre" value="Metal"> Metal</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="genre" value="Country"> Country</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="genre" value="R&B"> R&B</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="genre" value="Folk"> Folk</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="genre" value="Latin"> Latin</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="genre" value="Reggae"> Reggae</label>
+        </div>
       </div>
-      <div class="year-list">
-        <span class="y1960">1960</span>
-        <span class="y1970">1970</span>
-        <span class="y1980">1980</span>
-        <span class="y1990">1990</span>
-        <span class="y2000">2000</span>
-        <span class="y2010">2010</span>
-        <span class="y2020">2020</span>
+
+      <!-- Year Column -->
+      <div class="filter-group">
+        <div class="filter-title">Year</div>
+        <div class="options">
+          <label><input type="checkbox" class="filter-checkbox" data-group="year" value="1960"> 1960</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="year" value="1970"> 1970</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="year" value="1980"> 1980</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="year" value="1990"> 1990</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="year" value="2000"> 2000</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="year" value="2010"> 2010</label>
+          <label><input type="checkbox" class="filter-checkbox" data-group="year" value="2020"> 2020</label>
+        </div>
       </div>
     </div>
 
-    <button class="confirm">Confirm</button>
+    <button class="confirm-btn">Confirm</button>
 
     <div class="now-playing">
       <div id="currentTrack">California Love by Tupac</div>

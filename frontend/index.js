@@ -82,3 +82,59 @@ setInterval(function () {
 
 // Start with the correct time showing (00:59 in the screenshot)
 moveProgressTo(0); // 49% ≈ 59 seconds of a 120-second song
+
+// --- Filters: allow multiple selections and send to server ---
+const confirmButton = document.querySelector('.confirm-btn');
+const currentTrackEl = document.getElementById('currentTrack');
+let allTracks = [];
+
+// Load the tracks dataset used for client-side filtering
+fetch('tracks.json').then(r => r.json()).then(data => { allTracks = data; }).catch(err => { console.error('Could not load tracks.json', err); });
+
+confirmButton.addEventListener('click', () => {
+    // Gather checked filters
+    const checked = Array.from(document.querySelectorAll('.filter-checkbox:checked'));
+    const filters = {};
+    for (const cb of checked) {
+        const group = cb.dataset.group;
+        filters[group] = filters[group] || [];
+        filters[group].push(cb.value);
+    }
+    // Filter locally using loaded dataset
+    const genres = filters.genre || [];
+    const years = filters.year ? filters.year.map(y => parseInt(y)) : [];
+
+    const matches = allTracks.filter(track => {
+        let ok = true;
+        if (genres.length) {
+            ok = ok && genres.includes(track.genre);
+        }
+        if (years.length) {
+            // years are treated as decade starts (e.g., 1960 => 1960-1969)
+            const yearOk = years.some(decadeStart => {
+                const start = parseInt(decadeStart);
+                const end = start + 9;
+                return track.release_year >= start && track.release_year <= end;
+            });
+            ok = ok && yearOk;
+        }
+        return ok;
+    });
+
+    if (!matches.length) {
+        if (!allTracks.length) {
+            // fallback: ask server for a track if no local data
+            fetch('/api/party/default/currentTrack').then(r => r.json()).then(track => {
+                currentTrackEl.textContent = `${track.title} by ${track.artist}`;
+            }).catch(err => {
+                currentTrackEl.textContent = 'No tracks match the selected filters.';
+            });
+            return;
+        }
+        currentTrackEl.textContent = 'No tracks match the selected filters.';
+        return;
+    }
+    // pick a random match
+    const picked = matches[Math.floor(Math.random() * matches.length)];
+    currentTrackEl.textContent = `${picked.title} by ${picked.artist}`;
+});
