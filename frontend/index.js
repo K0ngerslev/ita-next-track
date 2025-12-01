@@ -1,9 +1,11 @@
 console.log('index.js loaded');
 // 1. Get the buttons and bars we need to control
-const playButton       = document.getElementById('playPause');        // the big play/pause button
-const progressBar      = document.getElementById('progressContainer'); // the gray bar you click on
-const greenProgress    = document.getElementById('progress');         // the green part that grows
-const timeDisplay      = document.getElementById('currentTime');      // shows "00:59"
+const playButton = document.getElementById('playPause');        // the big play/pause button
+const progressBar = document.getElementById('progressContainer'); // the gray bar you click on
+const greenProgress = document.getElementById('progress');         // the green part that grows
+const timeDisplay = document.getElementById('currentTime');      // shows "00:59"
+const img = document.getElementById('toggleImage');
+
 
 // 2. Remember if the music is playing or paused
 let musicIsPlaying = false;
@@ -16,9 +18,9 @@ if (playButton) {
 
     // Change the text on the button so people know what will happen next
     if (musicIsPlaying) {
-        playButton.textContent = 'Pause';   // show pause symbol when playing
+        img.src = "img/Pause.png";   // show pause symbol when playing
     } else {
-        playButton.textContent = 'Play';    // show play symbol when paused
+        img.src = "img/Play.png";    // show play symbol when paused
     }
     });
 } else {
@@ -94,18 +96,25 @@ moveProgressTo(0);
 
 document.getElementById("gear").addEventListener("click", function(){
     const filters = document.getElementById("filters");
+    const confirm = document.getElementById('confirm-btn');
 
     if (filters.classList.contains("hidden")){
         console.log("efjweifh");
         filters.classList.remove("hidden");
+        confirm.classList.remove("invisible");
         filters.classList.add("shown");
+        confirm.classList.add("visible");
+        
     }
     else if (filters.classList.contains("shown")){
         console.log("hej");
         filters.classList.remove("shown");
+        confirm.classList.remove("visible");
         filters.classList.add("hidden");
+        confirm.classList.add("invisible");
+       
     }
-    
+       
 })
 
 

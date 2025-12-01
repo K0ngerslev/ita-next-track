@@ -25,6 +25,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  position: relative; /* to position shuffle absolutely */
 }
 
 
@@ -34,10 +35,19 @@ body {
   background: #000;
   color: #fff;
   border: none;
-  padding: 8px 24px;
-  border-radius: 30px;
-  font-weight: bold;
-  
+  padding: 12px 28px; /* larger padding */
+  border-radius: 34px; /* slightly larger radius */
+  font-weight: 700;
+  font-size: 16px; /* larger font for better visibility */
+  min-width: 160px; /* make it wider for touch */
+  height: 50px; /* set a comfortable height */
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  text-align: center;  
 }
 
 
@@ -51,6 +61,23 @@ body {
 }
 #filters.shown {
     display:flex;
+}
+
+#confirm-btn.invisible {
+    display:none;
+}
+
+#confirm-btn.visible {
+  width: 100%;
+  background: #1db954;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
 }
 
 
@@ -107,18 +134,7 @@ input[type="checkbox"]:checked {
   background: #121212;
 }
 
-.confirm-btn {
-  width: 100%;
-  background: #1db954;
-  color: white;
-  border: none;
-  padding: 14px;
-  border-radius: 50px;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.3s;
-}
+
 
 .confirm-btn:hover {
   background: #1ed760;
@@ -163,10 +179,11 @@ input[type="checkbox"]:checked {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 25px;
+  gap: 60px;
   margin: 15px 0;
   font-size: 28px;
 }
+
 
 .controls button {
   background: none;

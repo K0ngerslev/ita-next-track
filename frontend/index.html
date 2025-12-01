@@ -10,7 +10,7 @@
     <div class="player">
     <div class="header">
       <div><img src="img/gear2.png" id="gear" width="40" style="cursor: pointer;"></div>
-      <button class="shuffle">Shuffle</button>
+      <div class="shuffle">Shuffle</div>
     </div>
      
 
@@ -45,7 +45,7 @@
         </div>
       </div>
     </div>
-    <button class="confirm-btn">Confirm</button>
+    <button id="confirm-btn" class="invisible">Confirm</button>
 
     
 
@@ -60,11 +60,13 @@
         <span>02:00</span>
       </div>
 
-      <div class="controls">
-        <button class="play-pause" id="playPause">Play</button>
-        <button class="next">Next</button>
-      </div>
-    </div>
+        <div class="controls">
+        <div class="play-pause" id="playPause"><img src="img/play.png" id="toggleImage" style="cursor:pointer;" width="50"></div>
+        <div class="next"><img src="img/skip.jpg"width="50" style="cursor:pointer;"></div>
+        </div>
+        
+      
+    
 
     <div class="up-next">
       <div>Up Next</div>
