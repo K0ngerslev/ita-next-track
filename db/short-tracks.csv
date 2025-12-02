@@ -1,28 +1,28 @@
-track_id,title,artist,genre,release_year,duration
-1,Billie Jean, Michael Jackson,Pop,1982,19.6
-2,Bohemian Rhapsody,Queen,Rock,1975,23.7
-4,Hey Jude,The Beatles,Rock,1968,28.7
-5,Shape of You,Ed Sheeran,Pop,2017,15.5
-6,Blinding Lights,The Weeknd,Pop,2019,13.3
-7,Stairway to Heaven,Led Zeppelin,Rock,1971,32.1
-8,Sweet Child O' Mine,Guns N' Roses,Rock,1987,23.7
-9,Lose Yourself,Eminem,Hip-Hop,2002,21.7
-10,Hotel California,Eagles,Rock,1976,26.1
-11,Imagine,John Lennon,Rock,1971,12.2
-12,Thriller,Michael Jackson,Pop,1982,23.8
-13,Rolling in the Deep,Adele,Pop,2010,15.2
-14,Juicy,The Notorious B.I.G.,Hip-Hop,1994,20.1
-15,Wonderwall,Oasis,Rock,1995,17.2
-16,Uptown Funk,Mark Ronson ft. Bruno Mars,Pop,2014,18.0
-17,Old Town Road,Lil Nas X ft. Billy Ray Cyrus,Hip-Hop,2019,7.5
-18,Someone Like You,Adele,Pop,2011,19.0
-19,Bad Guy,Billie Eilish,Pop,2019,12.9
-20,Hallelujah,Leonard Cohen,Folk,1984,18.2
-21,Creep,Radiohead,Rock,1992,15.9
-22,All of Me,John Legend,R&B,2013,17.9
-23,Despacito,Luis Fonsi & Daddy Yankee,Latin,2017,15.3
-24,One Dance,Drake ft. Wizkid & Kyla,Hip-Hop,2016,11.6
-25,Closer,The Chainsmokers ft. Halsey,Pop,2016,16.3
+track_id,title,artist,genre,release_year,duration, album-cover
+1,Billie Jean, Michael Jackson,Pop,1982,19.6, https://i.scdn.co/image/ab67616d0000b2739eb690cb054df293fe7711b8
+2,Bohemian Rhapsody,Queen,Rock,1975,23.7, https://upload.wikimedia.org/wikipedia/en/9/9f/Bohemian_Rhapsody.png
+4,Hey Jude,The Beatles,Rock,1968,28.7, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTfzIDmqXb6HYuMeHgdSaCnunU7vBc1T8dg&s
+5,Shape of You,Ed Sheeran,Pop,2017,15.5, https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png
+6,Blinding Lights,The Weeknd,Pop,2019,13.3, https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36
+7,Stairway to Heaven,Led Zeppelin,Rock,1971,32.1, https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69
+8,Sweet Child O' Mine,Guns N' Roses,Rock,1987,23.7, https://i.scdn.co/image/ab67616d0000b27368384dd85fd5e95831252f60
+9,Lose Yourself,Eminem,Hip-Hop,2002,21.7, https://i.scdn.co/image/ab67616d0000b273968da85f248a7e7747767801
+10,Hotel California,Eagles,Rock,1976,26.1, https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg
+11,Imagine,John Lennon,Rock,1971,12.2, https://upload.wikimedia.org/wikipedia/en/6/69/ImagineCover.jpg
+12,Thriller,Michael Jackson,Pop,1982,23.8, https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png
+13,Rolling in the Deep,Adele,Pop,2010,15.2, https://i.scdn.co/image/ab67616d0000b273744ea41a7c1ae57024752db9
+14,Juicy,The Notorious B.I.G.,Hip-Hop,1994,20.1, https://i.scdn.co/image/ab67616d0000b273f7a29d6fe5d39ec9313a19cb
+15,Wonderwall,Oasis,Rock,1995,17.2, https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Wonderwall_cover.jpg/250px-Wonderwall_cover.jpg
+16,Uptown Funk,Mark Ronson ft. Bruno Mars,Pop,2014,18.0, https://i.scdn.co/image/ab67616d00001e029860171ddfee17f77a570cf6
+17,Old Town Road,Lil Nas X ft. Billy Ray Cyrus,Hip-Hop,2019,7.5, https://upload.wikimedia.org/wikipedia/en/1/1c/Old_Town_Road_cover.jpg
+18,Someone Like You,Adele,Pop,2011,19.0, https://cdn-images.dzcdn.net/images/cover/8bdaf37e2e7f883e84bbc3462c938293/1900x1900-000000-80-0-0.jpg
+19,Bad Guy,Billie Eilish,Pop,2019,12.9, https://cdn-images.dzcdn.net/images/cover/6630083f454d48eadb6a9b53f035d734/1900x1900-000000-81-0-0.jpg
+20,Hallelujah,Leonard Cohen,Folk,1984,18.2, https://1265745076.rsc.cdn77.org/1024/jpg/109892-leonard-cohen-hallelujah-songs-from-his-albums-LP-62a198c6c8b06.jpg
+21,Creep,Radiohead,Rock,1992,15.9, https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d
+22,All of Me,John Legend,R&B,2013,17.9, https://static.wikia.nocookie.net/singmovie/images/3/3f/All_of_Me.jpg/revision/latest/thumbnail/width/360/height/360?cb=20170328180216
+23,Despacito,Luis Fonsi & Daddy Yankee,Latin,2017,15.3, https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Luis_Fonsi_Feat._Daddy_Yankee_-_Despacito_%28Official_Single_Cover%29.png/250px-Luis_Fonsi_Feat._Daddy_Yankee_-_Despacito_%28Official_Single_Cover%29.png
+24,One Dance,Drake ft. Wizkid & Kyla,Hip-Hop,2016,11.6, https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c
+25,Closer,The Chainsmokers ft. Halsey,Pop,2016,16.3, https://upload.wikimedia.org/wikipedia/en/a/a5/Closer_%28featuring_Halsey%29_%28Official_Single_Cover%29_by_The_Chainsmokers.png
 26,Sicko Mode,Travis Scott,Hip-Hop,2018,20.8
 27,Gangnam Style,PSY,Pop,2012,14.6
 28,Roar,Katy Perry,Pop,2013,14.9
