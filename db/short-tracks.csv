@@ -23,31 +23,31 @@ track_id,title,artist,genre,release_year,duration, album-cover
 23,Despacito,Luis Fonsi & Daddy Yankee,Latin,2017,15.3, https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Luis_Fonsi_Feat._Daddy_Yankee_-_Despacito_%28Official_Single_Cover%29.png/250px-Luis_Fonsi_Feat._Daddy_Yankee_-_Despacito_%28Official_Single_Cover%29.png
 24,One Dance,Drake ft. Wizkid & Kyla,Hip-Hop,2016,11.6, https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c
 25,Closer,The Chainsmokers ft. Halsey,Pop,2016,16.3, https://upload.wikimedia.org/wikipedia/en/a/a5/Closer_%28featuring_Halsey%29_%28Official_Single_Cover%29_by_The_Chainsmokers.png
-26,Sicko Mode,Travis Scott,Hip-Hop,2018,20.8
-27,Gangnam Style,PSY,Pop,2012,14.6
-28,Roar,Katy Perry,Pop,2013,14.9
-29,Shake It Off,Taylor Swift,Pop,2014,14.6
-30,Perfect,Ed Sheeran,Pop,2017,17.5
-31,Rockstar,Post Malone ft. 21 Savage,Hip-Hop,2017,14.5
-32,Havana,Camila Cabello ft. Young Thug,Latin,2017,14.5
-33,Sunflower,Post Malone & Swae Lee,Hip-Hop,2018,10.5
-34,Believer,Imagine Dragons,Rock,2017,13.6
-35,Thank U Next,Ariana Grande,Pop,2018,14.1
-36,7 Rings,Ariana Grande,Pop,2019,11.9
-37,Dance Monkey,Tones and I,Pop,2019,13.9
-38,Watermelon Sugar,Harry Styles,Pop,2019,11.6
-39,Levitating,Dua Lipa,Pop,2020,13.5
-40,Stay,The Kid LAROI & Justin Bieber,Pop,2021,9.4
-41,Heat Waves,Glass Animals,Rock,2020,15.9
-42,Industry Baby,Lil Nas X ft. Jack Harlow,Hip-Hop,2021,14.1
-43,As It Was,Harry Styles,Pop,2022,11.1
-44,Anti-Hero,Taylor Swift,Pop,2022,13.4
-45,Unholy,Sam Smith & Kim Petras,Pop,2022,10.4
-46,Flowers,Miley Cyrus,Pop,2023,13.3
-47,Calm Down,Rema & Selena Gomez,Hip-Hop,2022,15.9
-48,Kill Bill,SZA,R&B,2022,10.3
-49,Creepin',"Metro Boomin, The Weeknd & 21 Savage",R&B,2022,14.7
-50,Last Night,Morgan Wallen,Country,2023,10.9
+26,Sicko Mode,Travis Scott,Hip-Hop,2018,20.8, https://cdn-images.dzcdn.net/images/cover/75bfbbb2e58d5bc3d701416a3744aa7f/1900x1900-000000-81-0-0.jpg
+27,Gangnam Style,PSY,Pop,2012,14.6, https://upload.wikimedia.org/wikipedia/en/a/ad/Gangnam_Style_Official_Cover.png
+28,Roar,Katy Perry,Pop,2013,14.9, https://upload.wikimedia.org/wikipedia/en/4/41/Katy_Perry_-_Roar.png
+29,Shake It Off,Taylor Swift,Pop,2014,14.6, https://upload.wikimedia.org/wikipedia/en/c/c4/Taylor_Swift_-_Shake_It_Off.png
+30,Perfect,Ed Sheeran,Pop,2017,17.5, https://i.pinimg.com/736x/9a/22/fb/9a22fbaa1c35182063a67cae7913175c.jpg
+31,Rockstar,Post Malone ft. 21 Savage,Hip-Hop,2017,14.5, https://i1.sndcdn.com/artworks-000263607755-qq1t0i-t1080x1080.jpg
+32,Havana,Camila Cabello ft. Young Thug,Latin,2017,14.5, https://i.scdn.co/image/ab67616d0000b273c977780a05c2fd140690dd57
+33,Sunflower,Post Malone & Swae Lee,Hip-Hop,2018,10.5, https://i.discogs.com/O8uwisZ9jCE0i7BKiymorpxS01gBlYZoR0m0ceVptWM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDI3/NTM5LTE1NTg4NTE5/NTYtMzUwNi5qcGVn.jpeg
+34,Believer,Imagine Dragons,Rock,2017,13.6, https://i1.sndcdn.com/artworks-000231891000-378ga8-t500x500.jpg
+35,Thank U Next,Ariana Grande,Pop,2018,14.1, https://m.media-amazon.com/images/I/814KlPEfgOL._UF894,1000_QL80_.jpg
+36,7 Rings,Ariana Grande,Pop,2019,11.9, https://upload.wikimedia.org/wikipedia/en/b/b7/Ariana_Grande_-_7_rings.png
+37,Dance Monkey,Tones and I,Pop,2019,13.9, https://i.discogs.com/_KoHXhggprt47rMsoCJ2Ei-PoQoR5G8Pe4Qxgcp9CYo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDM2/NDAyLTE1NzQ1MDU2/MzMtNzY3OS5qcGVn.jpeg
+38,Watermelon Sugar,Harry Styles,Pop,2019,11.6, https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/1900x1900-000000-81-0-0.jpg
+39,Levitating,Dua Lipa,Pop,2020,13.5, https://cdn-images.dzcdn.net/images/cover/3c5cd0eb919ff9a7767b8ac7acc89e40/500x500.jpg
+40,Stay,The Kid LAROI & Justin Bieber,Pop,2021,9.4, https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/The_Kid_Laroi_and_Justin_Bieber_-_Stay.png/250px-The_Kid_Laroi_and_Justin_Bieber_-_Stay.png
+41,Heat Waves,Glass Animals,Rock,2020,15.9, https://cdn-images.dzcdn.net/images/cover/3d52a97863dd2f498255a45ff3c7e08c/0x1900-000000-80-0-0.jpg
+42,Industry Baby,Lil Nas X ft. Jack Harlow,Hip-Hop,2021,14.1, https://www.hotnewhiphop.com/wp-content/uploads/cover/58/90/1633789058_82ec412dc8405fb9eb9a9170d24f9700.jpg
+43,As It Was,Harry Styles,Pop,2022,11.1, https://cdn-images.dzcdn.net/images/cover/b0e936124f59e669ddba02ebe5893f95/0x1900-000000-80-0-0.jpg
+44,Anti-Hero,Taylor Swift,Pop,2022,13.4, https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_Anti-Hero.png
+45,Unholy,Sam Smith & Kim Petras,Pop,2022,10.4, https://www.nme.com/wp-content/uploads/2022/09/SamSmith-Kim-Petras-Unholy-single.jpg
+46,Flowers,Miley Cyrus,Pop,2023,13.3, https://i.ebayimg.com/images/g/WRwAAOSwZ-VkCxij/s-l1200.jpg
+47,Calm Down,Rema & Selena Gomez,Hip-Hop,2022,15.9, https://upload.wikimedia.org/wikipedia/en/b/b1/Rema_-_Calm_Down.png
+48,Kill Bill,SZA,R&B,2022,10.3, https://i.ebayimg.com/images/g/9BcAAOSwFc9mXO9z/s-l400.jpg
+49,Creepin',"Metro Boomin, The Weeknd & 21 Savage",R&B,2022,14.7, https://f4.bcbits.com/img/a0686334071_10.jpg
+50,Last Night,Morgan Wallen,Country,2023,10.9, https://i.scdn.co/image/ab67616d00001e02c37a94d92b0a874ba2419ed7
 51,Like a Prayer,Madonna,Pop,1989,22.8
 52,Purple Rain,Prince,Rock,1984,33.8
 53,Johanna,Radiohead ft. Thom Yorke,Rock,2000,20.1
