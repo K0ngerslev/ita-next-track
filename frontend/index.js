@@ -99,7 +99,6 @@ document.getElementById("gear").addEventListener("click", function(){
     const confirm = document.getElementById('confirm-btn');
 
     if (filters.classList.contains("hidden")){
-        console.log("efjweifh");
         filters.classList.remove("hidden");
         confirm.classList.remove("invisible");
         filters.classList.add("shown");
@@ -107,7 +106,6 @@ document.getElementById("gear").addEventListener("click", function(){
         
     }
     else if (filters.classList.contains("shown")){
-        console.log("hej");
         filters.classList.remove("shown");
         confirm.classList.remove("visible");
         filters.classList.add("hidden");
