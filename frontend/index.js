@@ -23,9 +23,28 @@ if (playButton) {
         img.src = "img/Play.png";    // show play symbol when paused
     }
     });
-} else {
-    console.warn('Play button (#playPause) missing');
+} 
+
+
+const likeButton = document.getElementById('likeButton');
+if (likeButton) {
+likeButton.addEventListener('click', function () { 
+    if (likeButton.src.includes('like.png')) { 
+        console.log('gg');          // virker uanset hele URL'en
+        likeButton.src = 'img/green like.png';
+    
+    } else if (likeButton.src.includes('green like.png')) {
+        console.log('hh');
+        likeButton.src = 'img/like.png';
+    }
+});
 }
+
+    
+
+
+
+
 
 // 4. When someone clicks anywhere on the progress bar
 if (progressBar) {
