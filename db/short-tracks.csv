@@ -48,32 +48,32 @@ track_id,title,artist,genre,release_year,duration, album-cover
 48,Kill Bill,SZA,R&B,2022,10.3, https://i.ebayimg.com/images/g/9BcAAOSwFc9mXO9z/s-l400.jpg
 49,Creepin',"Metro Boomin, The Weeknd & 21 Savage",R&B,2022,14.7, https://f4.bcbits.com/img/a0686334071_10.jpg
 50,Last Night,Morgan Wallen,Country,2023,10.9, https://i.scdn.co/image/ab67616d00001e02c37a94d92b0a874ba2419ed7
-51,Like a Prayer,Madonna,Pop,1989,22.8
-52,Purple Rain,Prince,Rock,1984,33.8
-53,Johanna,Radiohead ft. Thom Yorke,Rock,2000,20.1
-54,November Rain,Guns N' Roses,Rock,1991,35.8
-55,Enter Sandman,Metallica,Rock,1991,22.1
-56,Never Gonna Give You Up,Rick Astley,Pop,1987,14.3
-57,Take On Me,a-ha,Pop,1985,15.2
-58,Every Breath You Take,The Police,Rock,1983,16.9
-59,Sweet Dreams (Are Made of This),Eurythmics,Pop,1983,14.5
-60,Livin' on a Prayer,Bon Jovi,Rock,1986,16.7
-61,Don't Stop Believin',Journey,Rock,1981,16.7
-62,Back in Black,AC/DC,Rock,1980,17.0
-63,With or Without You,U2,Rock,1987,19.7
-64,I Want to Hold Your Hand,The Beatles,Rock,1963,9.7
-65,Karma Police,Radiohead,Rock,1997,17.7
-66,No Woman No Cry,Bob Marley & The Wailers,Reggae,1975,28.6
-67,Redemption Song,Bob Marley & The Wailers,Reggae,1980,15.4
-68,Paranoid Android,Radiohead,Rock,1997,25.7
-69,Where Is My Mind?,Pixies,Rock,1988,15.5
-70,Black Hole Sun,Soundgarden,Rock,1994,21.0
-71,Chop Suey!,System of a Down,Rock,2001,13.4
-72,Mr. Brightside,The Killers,Rock,2004,14.8
-73,Seven Nation Army,The White Stripes,Rock,2003,15.7
-74,Hey Ya!,OutKast,Hip-Hop,2003,15.9
-75,Clocks,Coldplay,Rock,2002,17.3
-76,In the End,Linkin Park,Rock,2001,14.5
+51,Like a Prayer,Madonna,Pop,1989,22.8, https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Madonna_-_Like_a_Prayer_album.png/250px-Madonna_-_Like_a_Prayer_album.png
+52,Purple Rain,Prince,Rock,1984,33.8, https://i.discogs.com/1-9vxj2VyIKSVZaae-4wALCmhQgkvjBODV1T5KcF1KE/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NDcz/NDEtMTQxMzYxODg0/MC04MDIxLmpwZWc.jpeg
+53,Johanna,Radiohead ft. Thom Yorke,Rock,2000,20.1, https://www.rockarchive.com/media/3878/radiohead-rd002kw.jpg?crop=0,0.035929219437707716,0,0.15566334321386866&cropmode=percentage&width=800&height=800&rnd=132491768320000000&overlay=watermark.png&overlay.size=230,20&overlay.position=0,780
+54,November Rain,Guns N' Roses,Rock,1991,35.8, https://i.discogs.com/kb8ABF29tav3JmG4ZaavPtPd0n_DGPL9QYQPTG_4uds/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTg5/NzAtMTQ0MTkwMTg1/Ni00MTM4LmpwZWc.jpeg
+55,Enter Sandman,Metallica,Rock,1991,22.1, https://i.ytimg.com/vi/CHIWNDAwTqQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAFPyl8iSM6z3brkK3LQLD9so5YcA
+56,Never Gonna Give You Up,Rick Astley,Pop,1987,14.3, https://f4.bcbits.com/img/a1231391256_5.jpg
+57,Take On Me,a-ha,Pop,1985,15.2, https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Take_On_Me_single_cover.jpg/250px-Take_On_Me_single_cover.jpg
+58,Every Breath You Take,The Police,Rock,1983,16.9, https://i.ebayimg.com/images/g/WR8AAOSwQSBm~vIk/s-l1200.jpg
+59,Sweet Dreams (Are Made of This),Eurythmics,Pop,1983,14.5, https://i.discogs.com/5L3OjbL_-N3194yl6_ZVEabgKb6MhiOz0iBokRVUB_U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxNzgx/LTExNzA3MTk2MjUu/anBlZw.jpeg
+60,Livin' on a Prayer,Bon Jovi,Rock,1986,16.7, https://upload.wikimedia.org/wikipedia/en/c/c6/LivinOnAPrayer%28hq%29.jpg
+61,Don't Stop Believin',Journey,Rock,1981,16.7, https://upload.wikimedia.org/wikipedia/en/6/66/Don%27t_Stop_Believin%27.jpg
+62,Back in Black,AC/DC,Rock,1980,17.0, https://i.ebayimg.com/images/g/aK8AAOSwVHlez~hV/s-l1200.jpg
+63,With or Without You,U2,Rock,1987,19.7, https://i.discogs.com/zzoVIfQnl3OTM3AJto7K27PcYvAjuZOx7_UVLLtyefo/rs:fit/g:sm/q:90/h:528/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNTQx/MjEtMTQzMzMyODQ1/NC04MTc3LmpwZWc.jpeg
+64,I Want to Hold Your Hand,The Beatles,Rock,1963,9.7, https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/03_iwantoholdyourhand.jpg/250px-03_iwantoholdyourhand.jpg
+65,Karma Police,Radiohead,Rock,1997,17.7, https://i.discogs.com/LBdqTqBqabd5938HoeMAqsP7EPaTeHyWSl3awQc2ml8/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDcx/MjQ5LTE2MzA0NzIx/MjItOTI2OS5qcGVn.jpeg
+66,No Woman No Cry,Bob Marley & The Wailers,Reggae,1975,28.6, https://i.discogs.com/z2nNvhQ68bVU5gbT9fu5lwu3mcg0c22cuOZEWwdhDVQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODUx/MjAtMTI4MDkzMzE0/MS5qcGVn.jpeg
+67,Redemption Song,Bob Marley & The Wailers,Reggae,1980,15.4, https://upload.wikimedia.org/wikipedia/en/e/e5/Bob_Marley_and_the_Wailers_-_Redemption_Song.jpg
+68,Paranoid Android,Radiohead,Rock,1997,25.7, https://upload.wikimedia.org/wikipedia/en/b/ba/Radioheadokcomputer.png
+69,Where Is My Mind?,Pixies,Rock,1988,15.5, https://i1.sndcdn.com/artworks-QkxeE41kyjG9RMQp-UsKPdA-t1080x1080.jpg
+70,Black Hole Sun,Soundgarden,Rock,1994,21.0, https://upload.wikimedia.org/wikipedia/en/3/3a/Superunknown.jpg
+71,Chop Suey!,System of a Down,Rock,2001,13.4, https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg
+72,Mr. Brightside,The Killers,Rock,2004,14.8, https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Mr.-Brightside.jpg/250px-Mr.-Brightside.jpg
+73,Seven Nation Army,The White Stripes,Rock,2003,15.7, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVKKuordOf8x0zIjqRdKlMLvXiadIYYuW1NQ&s
+74,Hey Ya!,OutKast,Hip-Hop,2003,15.9, https://upload.wikimedia.org/wikipedia/en/d/d8/Hey_Ya_single_cover.png
+75,Clocks,Coldplay,Rock,2002,17.3, https://i.discogs.com/cigAK5wha7SWjrsclw6MXuu1-zuK99q_FRhOwFC_gF0/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4MTUx/NDMtMTM0Mjg4MjEy/Ny01MTcyLmpwZWc.jpeg
+76,In the End,Linkin Park,Rock,2001,14.5, https://upload.wikimedia.org/wikipedia/en/3/3f/LinkinParkIntheEnd.jpg
 77,Numb,Linkin Park,Rock,2003,12.5
 78,Umbrella,Rihanna ft. Jay-Z,Pop,2007,18.4
 79,Poker Face,Lady Gaga,Pop,2008,15.8
