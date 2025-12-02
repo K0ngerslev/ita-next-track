@@ -32,15 +32,15 @@ body {
 
 
 .shuffle {
-  background: #000;
-  color: #fff;
+  background: #059600;
+  color: #ffffff;
   border: none;
   padding: 12px 28px; /* larger padding */
   border-radius: 34px; /* slightly larger radius */
   font-weight: 700;
-  font-size: 16px; /* larger font for better visibility */
-  min-width: 160px; /* make it wider for touch */
-  height: 50px; /* set a comfortable height */
+  font-size: 20px; /* larger font for better visibility */
+  min-width: 200px; /* make it wider for touch */
+  height: 55px; /* set a comfortable height */
   align-items: center;
   justify-content: center;
   position: absolute;

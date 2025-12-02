@@ -18,27 +18,24 @@ if (playButton) {
 
     // Change the text on the button so people know what will happen next
     if (musicIsPlaying) {
-        img.src = "img/Pause.png";   // show pause symbol when playing
+        img.src = "img/pause.png";   // show pause symbol when playing
     } else {
-        img.src = "img/Play.png";    // show play symbol when paused
+        img.src = "img/play.png";    // show play symbol when paused
     }
     });
 } 
 
 
-const likeButton = document.getElementById('likeButton');
+const likeButton = document.getElementById('imgLike');
 if (likeButton) {
-likeButton.addEventListener('click', function () { 
-    if (likeButton.src.includes('like.png')) { 
-        console.log('gg');          // virker uanset hele URL'en
-        likeButton.src = 'img/green like.png';
-    
-    } else if (likeButton.src.includes('green like.png')) {
-        console.log('hh');
-        likeButton.src = 'img/like.png';
-    }
-});
-}
+    likeButton.addEventListener('click', () => {
+        // Toggle 'liked' state via CSS class and then update the src.
+        likeButton.classList.toggle('liked');
+        likeButton.src = likeButton.classList.contains('liked') ? 'img/green thumb.png' : 'img/like.png';
+        // Keep a11y state updated
+        likeButton.setAttribute('aria-pressed', likeButton.classList.contains('liked'));
+    });
+} 
 
     
 
