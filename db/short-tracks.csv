@@ -1,4 +1,4 @@
-track_id,title,artist,genre,release_year,duration, album-cover
+track_id,title,artist,genre,release_year,duration, album_cover
 1,Billie Jean, Michael Jackson,Pop,1982,19.6, https://i.scdn.co/image/ab67616d0000b2739eb690cb054df293fe7711b8
 2,Bohemian Rhapsody,Queen,Rock,1975,23.7, https://upload.wikimedia.org/wikipedia/en/9/9f/Bohemian_Rhapsody.png
 4,Hey Jude,The Beatles,Rock,1968,28.7, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTfzIDmqXb6HYuMeHgdSaCnunU7vBc1T8dg&s

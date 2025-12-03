@@ -18,14 +18,14 @@ await db.query(`
 		genre text not null,
 		release_year int not null,
 	    duration real not null,
-		album-cover text not null
+		album_cover text not null
     )
 `);	
 console.log('Tables recreated.');
 
 console.log('Importing data from CSV files...');
 await upload(db, 'db/short-tracks.csv', `
-	copy tracks (track_id, title, artist, genre, release_year, duration)
+	copy tracks (track_id, title, artist, genre, release_year, duration, album_cover)
 	from stdin
 	with csv header`);
 console.log('Data imported.');
