@@ -38,7 +38,7 @@ if (likeButton) {
 } 
 
     
-document.getElementById('confirm-btn').addEventListener('click', function (){
+document.getElementById('confirm-btn').addEventListener('click', async function (){
     const selectedFilters = {
         genres: [],
         years: []
@@ -50,7 +50,25 @@ document.getElementById('confirm-btn').addEventListener('click', function (){
         selectedFilters.years.push(checkbox.value);
     });
     console.log('Selected Filters:', selectedFilters);
-})
+
+    try {
+        const response = await fetch('http://localhost:3003/api/filter', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(selectedFilters)
+        });
+        if (!response.ok) throw new Error('Network error');
+        const data = await response.json();
+        console.log('Results', data);
+
+    } catch (error){
+        console.error('Error:', error);
+    }
+    });
+
+
 
 
 
