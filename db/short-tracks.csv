@@ -32,7 +32,7 @@ track_id,title,artist,genre,release_year,duration, album_cover
 32,Havana,Camila Cabello ft. Young Thug,Latin,2017,14.5, https://i.scdn.co/image/ab67616d0000b273c977780a05c2fd140690dd57
 33,Sunflower,Post Malone & Swae Lee,Hip-Hop,2018,10.5, https://i.discogs.com/O8uwisZ9jCE0i7BKiymorpxS01gBlYZoR0m0ceVptWM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDI3/NTM5LTE1NTg4NTE5/NTYtMzUwNi5qcGVn.jpeg
 34,Believer,Imagine Dragons,Rock,2017,13.6, https://i1.sndcdn.com/artworks-000231891000-378ga8-t500x500.jpg
-35,Thank U Next,Ariana Grande,Pop,2018,14.1, https://m.media-amazon.com/images/I/814KlPEfgOL._UF894,1000_QL80_.jpg
+35,Thank U Next,Ariana Grande,Pop,2018,14.1, "https://m.media-amazon.com/images/I/814KlPEfgOL._UF894,1000_QL80_.jpg"
 36,7 Rings,Ariana Grande,Pop,2019,11.9, https://upload.wikimedia.org/wikipedia/en/b/b7/Ariana_Grande_-_7_rings.png
 37,Dance Monkey,Tones and I,Pop,2019,13.9, https://i.discogs.com/_KoHXhggprt47rMsoCJ2Ei-PoQoR5G8Pe4Qxgcp9CYo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDM2/NDAyLTE1NzQ1MDU2/MzMtNzY3OS5qcGVn.jpeg
 38,Watermelon Sugar,Harry Styles,Pop,2019,11.6, https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/1900x1900-000000-81-0-0.jpg
@@ -50,7 +50,7 @@ track_id,title,artist,genre,release_year,duration, album_cover
 50,Last Night,Morgan Wallen,Country,2023,10.9, https://i.scdn.co/image/ab67616d00001e02c37a94d92b0a874ba2419ed7
 51,Like a Prayer,Madonna,Pop,1989,22.8, https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Madonna_-_Like_a_Prayer_album.png/250px-Madonna_-_Like_a_Prayer_album.png
 52,Purple Rain,Prince,Rock,1984,33.8, https://i.discogs.com/1-9vxj2VyIKSVZaae-4wALCmhQgkvjBODV1T5KcF1KE/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NDcz/NDEtMTQxMzYxODg0/MC04MDIxLmpwZWc.jpeg
-53,Johanna,Radiohead ft. Thom Yorke,Rock,2000,20.1, https://www.rockarchive.com/media/3878/radiohead-rd002kw.jpg?crop=0,0.035929219437707716,0,0.15566334321386866&cropmode=percentage&width=800&height=800&rnd=132491768320000000&overlay=watermark.png&overlay.size=230,20&overlay.position=0,780
+53,Johanna,Radiohead ft. Thom Yorke,Rock,2000,20.1, "https://www.rockarchive.com/media/3878/radiohead-rd002kw.jpg?crop=0,0.035929219437707716,0,0.15566334321386866&cropmode=percentage&width=800&height=800&rnd=132491768320000000&overlay=watermark.png&overlay.size=230,20&overlay.position=0,780"
 54,November Rain,Guns N' Roses,Rock,1991,35.8, https://i.discogs.com/kb8ABF29tav3JmG4ZaavPtPd0n_DGPL9QYQPTG_4uds/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTg5/NzAtMTQ0MTkwMTg1/Ni00MTM4LmpwZWc.jpeg
 55,Enter Sandman,Metallica,Rock,1991,22.1, https://i.ytimg.com/vi/CHIWNDAwTqQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAFPyl8iSM6z3brkK3LQLD9so5YcA
 56,Never Gonna Give You Up,Rick Astley,Pop,1987,14.3, https://f4.bcbits.com/img/a1231391256_5.jpg
@@ -98,4 +98,3 @@ track_id,title,artist,genre,release_year,duration, album_cover
 98,See You Again,Wiz Khalifa ft. Charlie Puth,Pop,2015,15.3, https://i.scdn.co/image/ab67616d0000b2734e5df11b17b2727da2b718d8
 99,Hello,Adele,Pop,2015,19.7, https://i.scdn.co/image/ab67616d0000b2737b9888dc365b8f957c63df14
 100,Love Yourself,Justin Bieber,Pop,2015,15.6, https://i.scdn.co/image/ab67616d0000b273c34f510fcf86aae4aad9c305
-

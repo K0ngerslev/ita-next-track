@@ -22,9 +22,14 @@ function onEachRequest(request, response, next) {
 function onServerReady() {
     console.log('Webserver running on port', port);
 }
-function onPostFilter(request,response){
-    console.log(request.body);
-    response.json('ok');
+async function onPostFilter(request,response){
+    let filters = request.body;
+    const dbResult = await db.query(`
+        select title, artist, duration, album_cover from tracks
+        where genre = any($1::text[]) and (release_year / 10) * 10 = any($2::integer[])
+        `, [filters.genres, filters.years]);
+
+    response.json(dbResult.rows);
 }
 
 
