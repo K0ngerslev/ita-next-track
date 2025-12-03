@@ -38,7 +38,19 @@ if (likeButton) {
 } 
 
     
-
+document.getElementById('confirm-btn').addEventListener('click', function (){
+    const selectedFilters = {
+        genres: [],
+        years: []
+    };
+    document.querySelectorAll('#genres input[type="checkbox"]:checked').forEach(checkbox => {
+        selectedFilters.genres.push(checkbox.value);
+    });
+        document.querySelectorAll('#years input[type="checkbox"]:checked').forEach(checkbox => {
+        selectedFilters.years.push(checkbox.value);
+    });
+    console.log('Selected Filters:', selectedFilters);
+})
 
 
 
