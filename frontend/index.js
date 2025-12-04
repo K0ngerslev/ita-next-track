@@ -10,6 +10,11 @@ const img = document.getElementById('toggleImage');
 // 2. Remember if the music is playing or paused
 let musicIsPlaying = false;
 
+let trackList = [];       // all filtered tracks from server
+let currentIndex = 0;     // which song we are on
+let trackDuration = 120;  // fake duration (seconds)
+
+
 // 3. When someone clicks the Play/Pause button
 if (playButton) {
     playButton.addEventListener('click', function () {
@@ -61,7 +66,18 @@ document.getElementById('confirm-btn').addEventListener('click', async function 
         });
         if (!response.ok) throw new Error('Network error');
         const data = await response.json();
-        console.log('Results', data);
+console.log('Results', data);
+
+trackList = data;
+currentIndex = 0;
+
+// Start showing the first + next track
+showCurrentTrack();
+
+// Start playback
+musicIsPlaying = true;
+img.src = "img/pause.png";
+moveProgressTo(0);
 
     } catch (error){
         console.error('Error:', error);
@@ -128,17 +144,40 @@ setInterval(function () {
 
         // If we reached the end → stop and reset
         if (currentPercent >= 100) {
-            musicIsPlaying = false;
-            playButton.textContent = 'Play';
-            moveProgressTo(0); // go back to the beginning
-        } else {
-            moveProgressTo(currentPercent);
+    // Move to next track
+    currentIndex = (currentIndex + 1) % trackList.length;
+    showCurrentTrack();
+
+    // Reset progress bar
+    moveProgressTo(0);
+} else {
+    moveProgressTo(currentPercent);
+}
         }
     }
-}, 500);
+, 500);
 
 
 moveProgressTo(0); 
+
+
+
+function showCurrentTrack() {
+    if (!trackList.length) return;
+
+    const current = trackList[currentIndex];
+    const next = trackList[(currentIndex + 1) % trackList.length];
+
+    // Update current track UI
+    document.getElementById('currentCover').src = current.album_cover;
+    document.getElementById('currentTrack').textContent =
+        `${current.title} by ${current.artist}`;
+
+    // Update next track UI
+    document.getElementById('nextCover').src = next.album_cover;
+    document.getElementById('nextTrack').textContent =
+        `${next.title} by ${next.artist}`;
+}
 
 document.getElementById("gear").addEventListener("click", function(){
     const filters = document.getElementById("filters");

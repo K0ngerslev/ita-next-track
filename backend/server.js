@@ -27,6 +27,7 @@ async function onPostFilter(request,response){
     const dbResult = await db.query(`
         select title, artist, duration, album_cover from tracks
         where genre = any($1::text[]) and (release_year / 10) * 10 = any($2::integer[])
+        order by random()
         `, [filters.genres, filters.years]);
 
     response.json(dbResult.rows);
