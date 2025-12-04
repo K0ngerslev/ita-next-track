@@ -12,8 +12,6 @@ let musicIsPlaying = false;
 
 let trackList = [];       // all filtered tracks from server
 let currentIndex = 0;     // which song we are on
-let trackDuration = 120;  // fake duration (seconds)
-
 
 // 3. When someone clicks the Play/Pause button
 if (playButton) {
@@ -109,13 +107,14 @@ if (progressBar) {
 } else {
     console.warn('Progress bar (#progressContainer) missing');
 }
+ let totalSongSeconds = 20;
 
 // 5. A helper function that moves the green bar and updates the time
 function moveProgressTo(percent) {
     greenProgress.style.width = percent + '%';  // make green bar this wide
 
-    // The song is 2 minutes long (120 seconds)
-    let totalSongSeconds = 120;
+    
+   
 
     // Calculate how many seconds into the song we are
     let currentSeconds = Math.round(totalSongSeconds * percent / 100);
@@ -155,7 +154,7 @@ setInterval(function () {
 }
         }
     }
-, 500);
+, 500/5);
 
 
 moveProgressTo(0); 
@@ -172,6 +171,8 @@ function showCurrentTrack() {
     document.getElementById('currentCover').src = current.album_cover;
     document.getElementById('currentTrack').textContent =
         `${current.title} by ${current.artist}`;
+    totalSongSeconds = current.duration;
+    document.getElementById('trackLength').textContent = current.duration;
 
     // Update next track UI
     document.getElementById('nextCover').src = next.album_cover;

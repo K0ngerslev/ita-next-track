@@ -24,13 +24,37 @@ function onServerReady() {
 }
 async function onPostFilter(request,response){
     let filters = request.body;
+    if(filters.genres.length>0 && filters.years.length>0){
     const dbResult = await db.query(`
         select title, artist, duration, album_cover from tracks
         where genre = any($1::text[]) and (release_year / 10) * 10 = any($2::integer[])
         order by random()
         `, [filters.genres, filters.years]);
-
     response.json(dbResult.rows);
+    }
+    if(filters.genres.length>0 && filters.years.length===0){
+    const dbResult = await db.query(`
+        select title, artist, duration, album_cover from tracks
+        where genre = any($1::text[])
+        order by random()
+        `, [filters.genres]);
+    response.json(dbResult.rows);
+    }
+    if(filters.genres.length===0 && filters.years.length>0){
+    const dbResult = await db.query(`
+        select title, artist, duration, album_cover from tracks
+        where (release_year / 10) * 10 = any($1::integer[])
+        order by random()
+        `, [filters.years]);
+    response.json(dbResult.rows);
+    }
+    if(filters.genres.length===0 && filters.years.length===0){
+    const dbResult = await db.query(`
+        select title, artist, duration, album_cover from tracks
+        order by random()
+    `)
+    response.json(dbResult.rows);
+    }
 }
 
 
