@@ -178,6 +178,10 @@ function showCurrentTrack() {
     document.getElementById('nextCover').src = next.album_cover;
     document.getElementById('nextTrack').textContent =
         `${next.title} by ${next.artist}`;
+        likeButton.classList.remove('liked');
+        likeButton.src = 'img/like.png';
+        likeButton.setAttribute('aria-pressed', 'false');
+        isLiked();
 }
 
 document.getElementById("gear").addEventListener("click", function(){
@@ -200,6 +204,31 @@ document.getElementById("gear").addEventListener("click", function(){
     }
        
 })
+let nextTrack = document.getElementById("nextTrack");
+let likedSongs =[];
+document.getElementById("imgLike").addEventListener("click", function(){
+    for(let i=0;i<trackList.length;i++){
+        if(nextTrack.innerHTML.includes(trackList[i].title)){
+            likedSongs.push(trackList[i]);
+            console.log('added', trackList[i].title ,'to playlist');
+        }  
+    }
+    console.log('liked Songs:', likedSongs);
+}
+)
 
+function isLiked(){
+for(let i=0;i<likedSongs.length;i++){
+    if(nextTrack.innerHTML.includes(likedSongs[i].title)){
+        imgLike.src='img/green thumb.png';
+    }
+}
+}
+document.getElementById('skip').addEventListener("click",function(){
+    currentIndex = (currentIndex + 1) % trackList.length;
+    showCurrentTrack();
+    moveProgressTo(0);
+    console.log('hej');
+})
 
 
