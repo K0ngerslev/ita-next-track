@@ -229,7 +229,14 @@ document.getElementById('skip').addEventListener("click",function(){
     currentIndex = (currentIndex + 1) % trackList.length;
     showCurrentTrack();
     moveProgressTo(0);
-    console.log('hej');
+    console.log('skipped sang');
+})
+
+document.getElementById('previous').addEventListener("click",function(){
+    currentIndex = (currentIndex - 1) % trackList.length;
+    showCurrentTrack();
+    moveProgressTo(0);
+    console.log('previous sang');
 })
 
 
