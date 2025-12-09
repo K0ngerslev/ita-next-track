@@ -5,10 +5,55 @@ const progressBar = document.getElementById('progressContainer'); // the gray ba
 const greenProgress = document.getElementById('progress');         // the green part that grows
 const timeDisplay = document.getElementById('currentTime');      // shows "00:59"
 const img = document.getElementById('toggleImage');
+const shuffle = document.getElementById('shufflePlaylist');
+const liked = document.getElementById('likedPlaylist');
 
 
 // 2. Remember if the music is playing or paused
 let musicIsPlaying = false;
+let playLikedSongs = false;
+
+shuffle.addEventListener('click', function (){
+    playLikedSongs=false
+    shuffle.classList.add('clicked');
+    if(liked.classList.contains('clicked')){
+    liked.classList.remove('clicked');
+    }
+    
+    // Revert back to normal playlist
+    currentIndex = 0;
+    if (trackList.length > 0) {
+        showCurrentTrack();
+        musicIsPlaying = true;
+        img.src = "img/pause.png";
+        moveProgressTo(0);
+    } else {
+        console.log('No tracks in playlist yet');
+    }
+    
+    console.log(playLikedSongs)
+});
+liked.addEventListener('click', function (){
+    playLikedSongs=true
+    liked.classList.add('clicked');
+    if(shuffle.classList.contains('clicked')){
+    shuffle.classList.remove('clicked');
+    }
+        
+    
+    // Start playing liked songs
+    currentIndex = 0;
+    if (likedSongs.length > 0) {
+        playLikedTracks();
+        musicIsPlaying = true;
+        img.src = "img/pause.png";
+        moveProgressTo(0);
+    } else {
+        console.log('No liked songs yet');
+    }
+    
+    console.log(playLikedSongs);
+})
 
 let trackList = [];       // all filtered tracks from server
 let currentIndex = 0;     // which song we are on
@@ -70,7 +115,13 @@ trackList = data;
 currentIndex = 0;
 
 // Start showing the first + next track
-showCurrentTrack();
+if(!playLikedSongs){
+    console.log('hej')
+    showCurrentTrack();
+}
+if(playLikedSongs){
+    playLikedTracks();
+}
 
 // Start playback
 musicIsPlaying = true;
@@ -131,6 +182,8 @@ function moveProgressTo(percent) {
     timeDisplay.textContent = minutesText + ':' + secondsText;
 }
 
+
+
 // 6. Make the song "play" automatically so you can see the bar move
 // This runs every half second (500 milliseconds)
 setInterval(function () {
@@ -144,8 +197,15 @@ setInterval(function () {
         // If we reached the end → stop and reset
         if (currentPercent >= 100) {
     // Move to next track
+
+    if(!playLikedSongs){
     currentIndex = (currentIndex + 1) % trackList.length;
     showCurrentTrack();
+    }
+    if(playLikedSongs){
+        currentIndex = (currentIndex + 1) % likedSongs.length;
+        playLikedTracks();
+    }
 
     // Reset progress bar
     moveProgressTo(0);
@@ -205,17 +265,34 @@ document.getElementById("gear").addEventListener("click", function(){
        
 })
 let nextTrack = document.getElementById("nextTrack");
-let likedSongs =[];
+let likedSongs = [];
+
 document.getElementById("imgLike").addEventListener("click", function(){
-    for(let i=0;i<trackList.length;i++){
+    for(let i = 0; i < trackList.length; i++){
         if(nextTrack.innerHTML.includes(trackList[i].title)){
-            likedSongs.push(trackList[i]);
-            console.log('added', trackList[i].title ,'to playlist');
+            
+            // Check if already in likedSongs
+            let alreadyLiked = false;
+            for(let j = 0; j < likedSongs.length; j++){
+                if(likedSongs[j].title === trackList[i].title){
+                    alreadyLiked = true;
+                    break;
+                }
+            }
+            
+            // Only add if not already there
+            if(!alreadyLiked){
+                likedSongs.push(trackList[i]);
+                console.log('added', trackList[i].title, 'to playlist');
+            } else {
+                console.log(trackList[i].title, 'already liked');
+                imgLike.src='img/green thumb.png';
+            }
+            break; // important: stop after finding the match
         }  
     }
     console.log('liked Songs:', likedSongs);
-}
-)
+});
 //tjekker om en sang allerede er liked
 function isLiked(){
 for(let i=0;i<likedSongs.length;i++){
@@ -226,17 +303,48 @@ for(let i=0;i<likedSongs.length;i++){
 }
 //skip sang
 document.getElementById('skip').addEventListener("click",function(){
-    currentIndex = (currentIndex + 1) % trackList.length;
-    showCurrentTrack();
+    if(playLikedSongs){
+        currentIndex = (currentIndex + 1) % likedSongs.length;
+        playLikedTracks();
+    } else {
+        currentIndex = (currentIndex + 1) % trackList.length;
+        showCurrentTrack();
+    }
     moveProgressTo(0);
     console.log('skipped sang');
 })
 
 document.getElementById('previous').addEventListener("click",function(){
-    currentIndex = (currentIndex - 1) % trackList.length;
-    showCurrentTrack();
+    if(playLikedSongs){
+        currentIndex = (currentIndex - 1 + likedSongs.length) % likedSongs.length;
+        playLikedTracks();
+    } else {
+        currentIndex = (currentIndex - 1 + trackList.length) % trackList.length;
+        showCurrentTrack();
+    }
     moveProgressTo(0);
     console.log('previous sang');
 })
+function playLikedTracks() {
+    if (!likedSongs.length) return;
 
+    const current = likedSongs[currentIndex];
+    const next = likedSongs[(currentIndex + 1) % likedSongs.length];
+
+    // Update current track UI
+    document.getElementById('currentCover').src = current.album_cover;
+    document.getElementById('currentTrack').textContent =
+        `${current.title} by ${current.artist}`;
+    totalSongSeconds = current.duration;
+    document.getElementById('trackLength').textContent = current.duration;
+
+    // Update next track UI
+    document.getElementById('nextCover').src = next.album_cover;
+    document.getElementById('nextTrack').textContent =
+        `${next.title} by ${next.artist}`;
+        likeButton.classList.remove('liked');
+        likeButton.src = 'img/like.png';
+        likeButton.setAttribute('aria-pressed', 'false');
+        isLiked();
+}
 

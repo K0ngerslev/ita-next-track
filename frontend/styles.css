@@ -31,23 +31,27 @@ body {
 
 
 
-.shuffle {
+.playlists {
   background: #059600;
   color: #ffffff;
-  border: none;
   padding: 12px 28px; /* larger padding */
   border-radius: 34px; /* slightly larger radius */
   font-weight: 700;
   font-size: 20px; /* larger font for better visibility */
-  min-width: 200px; /* make it wider for touch */
+  min-width: 120px; /* make it wider for touch */
   height: 55px; /* set a comfortable height */
   align-items: center;
   justify-content: center;
-  position: absolute;
-  left: 50%;
+  position: relative;
+  left: 10%;
   transform: translateX(-50%);
   z-index: 2;
-  text-align: center;  
+  text-align: center; 
+  float: left; 
+  cursor: pointer;
+}
+.playlists.clicked {
+    background: black;
 }
 
 
