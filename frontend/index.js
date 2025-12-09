@@ -216,7 +216,7 @@ document.getElementById("imgLike").addEventListener("click", function(){
     console.log('liked Songs:', likedSongs);
 }
 )
-
+//tjekker om en sang allerede er liked
 function isLiked(){
 for(let i=0;i<likedSongs.length;i++){
     if(nextTrack.innerHTML.includes(likedSongs[i].title)){
@@ -224,6 +224,7 @@ for(let i=0;i<likedSongs.length;i++){
     }
 }
 }
+//skip sang
 document.getElementById('skip').addEventListener("click",function(){
     currentIndex = (currentIndex + 1) % trackList.length;
     showCurrentTrack();
