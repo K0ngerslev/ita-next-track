@@ -1,118 +1,118 @@
-track_id,title,artist,genre,release_year,duration, album_cover
-1,Billie Jean, Michael Jackson,Pop,1982,19.6, https://i.scdn.co/image/ab67616d0000b2739eb690cb054df293fe7711b8
-2,Bohemian Rhapsody,Queen,Rock,1975,23.7, https://upload.wikimedia.org/wikipedia/en/9/9f/Bohemian_Rhapsody.png
-4,Hey Jude,The Beatles,Rock,1968,28.7, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTfzIDmqXb6HYuMeHgdSaCnunU7vBc1T8dg&s
-5,Shape of You,Ed Sheeran,Pop,2017,15.5, https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png
-6,Blinding Lights,The Weeknd,Pop,2019,13.3, https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36
-7,Stairway to Heaven,Led Zeppelin,Rock,1971,32.1, https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69
-8,Sweet Child O' Mine,Guns N' Roses,Rock,1987,23.7, https://i.scdn.co/image/ab67616d0000b27368384dd85fd5e95831252f60
-9,Lose Yourself,Eminem,Hip-Hop,2002,21.7, https://i.scdn.co/image/ab67616d0000b273968da85f248a7e7747767801
-10,Hotel California,Eagles,Rock,1976,26.1, https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg
-11,Imagine,John Lennon,Rock,1971,12.2, https://upload.wikimedia.org/wikipedia/en/6/69/ImagineCover.jpg
-12,Thriller,Michael Jackson,Pop,1982,23.8, https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png
-13,Rolling in the Deep,Adele,Pop,2010,15.2, https://i.scdn.co/image/ab67616d0000b273744ea41a7c1ae57024752db9
-14,Juicy,The Notorious B.I.G.,Hip-Hop,1994,20.1, https://i.scdn.co/image/ab67616d0000b273f7a29d6fe5d39ec9313a19cb
-15,Wonderwall,Oasis,Rock,1995,17.2, https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Wonderwall_cover.jpg/250px-Wonderwall_cover.jpg
-16,Uptown Funk,Mark Ronson ft. Bruno Mars,Pop,2014,18.0, https://i.scdn.co/image/ab67616d00001e029860171ddfee17f77a570cf6
-17,Old Town Road,Lil Nas X ft. Billy Ray Cyrus,Hip-Hop,2019,7.5, https://upload.wikimedia.org/wikipedia/en/1/1c/Old_Town_Road_cover.jpg
-18,Someone Like You,Adele,Pop,2011,19.0, https://cdn-images.dzcdn.net/images/cover/8bdaf37e2e7f883e84bbc3462c938293/1900x1900-000000-80-0-0.jpg
-19,Bad Guy,Billie Eilish,Pop,2019,12.9, https://cdn-images.dzcdn.net/images/cover/6630083f454d48eadb6a9b53f035d734/1900x1900-000000-81-0-0.jpg
-20,Hallelujah,Leonard Cohen,Folk,1984,18.2, https://1265745076.rsc.cdn77.org/1024/jpg/109892-leonard-cohen-hallelujah-songs-from-his-albums-LP-62a198c6c8b06.jpg
-21,Creep,Radiohead,Rock,1992,15.9, https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d
-22,All of Me,John Legend,R&B,2013,17.9, https://upload.wikimedia.org/wikipedia/en/4/4f/Allofmejohnlegend.jpg 
-23,Despacito,Luis Fonsi & Daddy Yankee,Latin,2017,15.3, https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Luis_Fonsi_Feat._Daddy_Yankee_-_Despacito_%28Official_Single_Cover%29.png/250px-Luis_Fonsi_Feat._Daddy_Yankee_-_Despacito_%28Official_Single_Cover%29.png
-24,One Dance,Drake ft. Wizkid & Kyla,Hip-Hop,2016,11.6, https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c
-25,Closer,The Chainsmokers ft. Halsey,Pop,2016,16.3, https://upload.wikimedia.org/wikipedia/en/a/a5/Closer_%28featuring_Halsey%29_%28Official_Single_Cover%29_by_The_Chainsmokers.png
-26,Sicko Mode,Travis Scott,Hip-Hop,2018,20.8, https://cdn-images.dzcdn.net/images/cover/75bfbbb2e58d5bc3d701416a3744aa7f/1900x1900-000000-81-0-0.jpg
-27,Gangnam Style,PSY,Pop,2012,14.6, https://upload.wikimedia.org/wikipedia/en/a/ad/Gangnam_Style_Official_Cover.png
-28,Roar,Katy Perry,Pop,2013,14.9, https://upload.wikimedia.org/wikipedia/en/4/41/Katy_Perry_-_Roar.png
-29,Shake It Off,Taylor Swift,Pop,2014,14.6, https://upload.wikimedia.org/wikipedia/en/c/c4/Taylor_Swift_-_Shake_It_Off.png
-30,Perfect,Ed Sheeran,Pop,2017,17.5, https://i.pinimg.com/736x/9a/22/fb/9a22fbaa1c35182063a67cae7913175c.jpg
-31,Rockstar,Post Malone ft. 21 Savage,Hip-Hop,2017,14.5, https://i1.sndcdn.com/artworks-000263607755-qq1t0i-t1080x1080.jpg
-32,Havana,Camila Cabello ft. Young Thug,Latin,2017,14.5, https://i.scdn.co/image/ab67616d0000b273c977780a05c2fd140690dd57
-33,Sunflower,Post Malone & Swae Lee,Hip-Hop,2018,10.5, https://i.discogs.com/O8uwisZ9jCE0i7BKiymorpxS01gBlYZoR0m0ceVptWM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDI3/NTM5LTE1NTg4NTE5/NTYtMzUwNi5qcGVn.jpeg
-34,Believer,Imagine Dragons,Rock,2017,13.6, https://i1.sndcdn.com/artworks-000231891000-378ga8-t500x500.jpg
-35,Thank U Next,Ariana Grande,Pop,2018,14.1, "https://m.media-amazon.com/images/I/814KlPEfgOL._UF894,1000_QL80_.jpg"
-36,7 Rings,Ariana Grande,Pop,2019,11.9, https://upload.wikimedia.org/wikipedia/en/b/b7/Ariana_Grande_-_7_rings.png
-37,Dance Monkey,Tones and I,Pop,2019,13.9, https://i.discogs.com/_KoHXhggprt47rMsoCJ2Ei-PoQoR5G8Pe4Qxgcp9CYo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDM2/NDAyLTE1NzQ1MDU2/MzMtNzY3OS5qcGVn.jpeg
-38,Watermelon Sugar,Harry Styles,Pop,2019,11.6, https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/1900x1900-000000-81-0-0.jpg
-39,Levitating,Dua Lipa,Pop,2020,13.5, https://cdn-images.dzcdn.net/images/cover/3c5cd0eb919ff9a7767b8ac7acc89e40/500x500.jpg
-40,Stay,The Kid LAROI & Justin Bieber,Pop,2021,9.4, https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/The_Kid_Laroi_and_Justin_Bieber_-_Stay.png/250px-The_Kid_Laroi_and_Justin_Bieber_-_Stay.png
-41,Heat Waves,Glass Animals,Rock,2020,15.9, https://cdn-images.dzcdn.net/images/cover/3d52a97863dd2f498255a45ff3c7e08c/0x1900-000000-80-0-0.jpg
-42,Industry Baby,Lil Nas X ft. Jack Harlow,Hip-Hop,2021,14.1, https://www.hotnewhiphop.com/wp-content/uploads/cover/58/90/1633789058_82ec412dc8405fb9eb9a9170d24f9700.jpg
-43,As It Was,Harry Styles,Pop,2022,11.1, https://cdn-images.dzcdn.net/images/cover/b0e936124f59e669ddba02ebe5893f95/0x1900-000000-80-0-0.jpg
-44,Anti-Hero,Taylor Swift,Pop,2022,13.4, https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_Anti-Hero.png
-45,Unholy,Sam Smith & Kim Petras,Pop,2022,10.4, https://www.nme.com/wp-content/uploads/2022/09/SamSmith-Kim-Petras-Unholy-single.jpg
-46,Flowers,Miley Cyrus,Pop,2023,13.3, https://i.ebayimg.com/images/g/WRwAAOSwZ-VkCxij/s-l1200.jpg
-47,Calm Down,Rema & Selena Gomez,Hip-Hop,2022,15.9, https://upload.wikimedia.org/wikipedia/en/b/b1/Rema_-_Calm_Down.png
-48,Kill Bill,SZA,R&B,2022,10.3, https://i.ebayimg.com/images/g/9BcAAOSwFc9mXO9z/s-l400.jpg
-49,Creepin',"Metro Boomin, The Weeknd & 21 Savage",R&B,2022,14.7, https://f4.bcbits.com/img/a0686334071_10.jpg
-50,Last Night,Morgan Wallen,Country,2023,10.9, https://i.scdn.co/image/ab67616d00001e02c37a94d92b0a874ba2419ed7
-51,Like a Prayer,Madonna,Pop,1989,22.8, https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Madonna_-_Like_a_Prayer_album.png/250px-Madonna_-_Like_a_Prayer_album.png
-52,Purple Rain,Prince,Rock,1984,33.8, https://i.discogs.com/1-9vxj2VyIKSVZaae-4wALCmhQgkvjBODV1T5KcF1KE/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NDcz/NDEtMTQxMzYxODg0/MC04MDIxLmpwZWc.jpeg
-53,Johanna,Radiohead ft. Thom Yorke,Rock,2000,20.1, "https://www.rockarchive.com/media/3878/radiohead-rd002kw.jpg?crop=0,0.035929219437707716,0,0.15566334321386866&cropmode=percentage&width=800&height=800&rnd=132491768320000000&overlay=watermark.png&overlay.size=230,20&overlay.position=0,780"
-54,November Rain,Guns N' Roses,Rock,1991,35.8, https://i.discogs.com/kb8ABF29tav3JmG4ZaavPtPd0n_DGPL9QYQPTG_4uds/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTg5/NzAtMTQ0MTkwMTg1/Ni00MTM4LmpwZWc.jpeg
-55,Enter Sandman,Metallica,Rock,1991,22.1, https://i.ytimg.com/vi/CHIWNDAwTqQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAFPyl8iSM6z3brkK3LQLD9so5YcA
-56,Never Gonna Give You Up,Rick Astley,Pop,1987,14.3, https://f4.bcbits.com/img/a1231391256_5.jpg
-57,Take On Me,a-ha,Pop,1985,15.2, https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Take_On_Me_single_cover.jpg/250px-Take_On_Me_single_cover.jpg
-58,Every Breath You Take,The Police,Rock,1983,16.9, https://i.ebayimg.com/images/g/WR8AAOSwQSBm~vIk/s-l1200.jpg
-59,Sweet Dreams (Are Made of This),Eurythmics,Pop,1983,14.5, https://i.discogs.com/5L3OjbL_-N3194yl6_ZVEabgKb6MhiOz0iBokRVUB_U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxNzgx/LTExNzA3MTk2MjUu/anBlZw.jpeg
-60,Livin' on a Prayer,Bon Jovi,Rock,1986,16.7, https://upload.wikimedia.org/wikipedia/en/c/c6/LivinOnAPrayer%28hq%29.jpg
-61,Don't Stop Believin',Journey,Rock,1981,16.7, https://upload.wikimedia.org/wikipedia/en/6/66/Don%27t_Stop_Believin%27.jpg
-62,Back in Black,AC/DC,Rock,1980,17.0, https://i.ebayimg.com/images/g/aK8AAOSwVHlez~hV/s-l1200.jpg
-63,With or Without You,U2,Rock,1987,19.7, https://i.discogs.com/zzoVIfQnl3OTM3AJto7K27PcYvAjuZOx7_UVLLtyefo/rs:fit/g:sm/q:90/h:528/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNTQx/MjEtMTQzMzMyODQ1/NC04MTc3LmpwZWc.jpeg
-64,I Want to Hold Your Hand,The Beatles,Rock,1963,9.7, https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/03_iwantoholdyourhand.jpg/250px-03_iwantoholdyourhand.jpg
-65,Karma Police,Radiohead,Rock,1997,17.7, https://i.discogs.com/LBdqTqBqabd5938HoeMAqsP7EPaTeHyWSl3awQc2ml8/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDcx/MjQ5LTE2MzA0NzIx/MjItOTI2OS5qcGVn.jpeg
-66,No Woman No Cry,Bob Marley & The Wailers,Reggae,1975,28.6, https://i.discogs.com/z2nNvhQ68bVU5gbT9fu5lwu3mcg0c22cuOZEWwdhDVQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODUx/MjAtMTI4MDkzMzE0/MS5qcGVn.jpeg
-67,Redemption Song,Bob Marley & The Wailers,Reggae,1980,15.4, https://upload.wikimedia.org/wikipedia/en/e/e5/Bob_Marley_and_the_Wailers_-_Redemption_Song.jpg
-68,Paranoid Android,Radiohead,Rock,1997,25.7, https://upload.wikimedia.org/wikipedia/en/b/ba/Radioheadokcomputer.png
-69,Where Is My Mind?,Pixies,Rock,1988,15.5, https://i1.sndcdn.com/artworks-QkxeE41kyjG9RMQp-UsKPdA-t1080x1080.jpg
-70,Black Hole Sun,Soundgarden,Rock,1994,21.0, https://upload.wikimedia.org/wikipedia/en/3/3a/Superunknown.jpg
-71,Chop Suey!,System of a Down,Rock,2001,13.4, https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg
-72,Mr. Brightside,The Killers,Rock,2004,14.8, https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Mr.-Brightside.jpg/250px-Mr.-Brightside.jpg
-73,Seven Nation Army,The White Stripes,Rock,2003,15.7, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVKKuordOf8x0zIjqRdKlMLvXiadIYYuW1NQ&s
-74,Hey Ya!,OutKast,Hip-Hop,2003,15.9, https://upload.wikimedia.org/wikipedia/en/d/d8/Hey_Ya_single_cover.png
-75,Clocks,Coldplay,Rock,2002,17.3, https://i.discogs.com/cigAK5wha7SWjrsclw6MXuu1-zuK99q_FRhOwFC_gF0/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4MTUx/NDMtMTM0Mjg4MjEy/Ny01MTcyLmpwZWc.jpeg
-76,In the End,Linkin Park,Rock,2001,14.5, https://upload.wikimedia.org/wikipedia/en/3/3f/LinkinParkIntheEnd.jpg
-77,Numb,Linkin Park,Rock,2003,12.5, https://cdn-images.dzcdn.net/images/cover/44df4f6fb2534768f4924365c103d0f7/1900x1900-000000-80-0-0.jpg
-78,Umbrella,Rihanna ft. Jay-Z,Pop,2007,18.4, https://cdn-images.dzcdn.net/images/cover/91276466fbc876d96be9e6926060af60/1900x1900-000000-80-0-0.jpg
-79,Poker Face,Lady Gaga,Pop,2008,15.8, https://cdn-images.dzcdn.net/images/cover/cc24d60a998e1a296f0c22efa8ddffd2/0x1900-000000-80-0-0.jpg
-80,Single Ladies (Put a Ring on It),Beyoncé,R&B,2008,12.9, https://i.scdn.co/image/ab67616d0000b273801c4d205accdba0a468a10b
-81,Rehab,Amy Winehouse,R&B,2006,14.3, https://i.scdn.co/image/ab67616d0000b2734b6583b0a1505e40779faec6
-82,Crazy in Love,Beyoncé ft. Jay-Z,R&B,2003,15.8, https://i.scdn.co/image/ab67616d0000b27345680a4a57c97894490a01c1
-83,Halo,Beyoncé,R&B,2008,16.7, https://i.scdn.co/image/ab67616d0000b273801c4d205accdba0a468a10b
-84,Use Somebody,Kings of Leon,Rock,2008,15.3, https://i.scdn.co/image/ab67616d0000b2732519d01c0cca06f134eeadd8
-85,Sex on Fire,Kings of Leon,Rock,2008,13.5, https://i.scdn.co/image/ab67616d0000b2732519d01c0cca06f134eeadd8
-86,I Gotta Feeling,The Black Eyed Peas,Pop,2009,18.9, https://cdn-images.dzcdn.net/images/cover/ee510b61893be970d7f40308a32326a1/1900x1900-000000-80-0-0.jpg
-87,Bad Romance,Lady Gaga,Pop,2009,19.7, https://upload.wikimedia.org/wikipedia/en/4/45/The_Fame_Monster.png
-88,Fireflies,Owl City,Pop,2009,15.3, https://upload.wikimedia.org/wikipedia/en/7/79/Owl-city-ocean-eyes-2009.jpg
-89,Empire State of Mind,Jay-Z ft. Alicia Keys,Hip-Hop,2009,18.6, https://i.scdn.co/image/ab67616d0000b273fec1b815bb3c50a64a90fd10
-90,Tik Tok,Ke$ha,Pop,2009,13.3, https://i.scdn.co/image/ab67616d0000b27365836b344b9d983462d5f1a7
-91,Somebody That I Used to Know,Gotye ft. Kimbra,Pop,2011,16.4, https://upload.wikimedia.org/wikipedia/en/c/c1/Gotye_featuring_Kimbra_-_Somebody_That_I_Used_to_Know.png
-92,Call Me Maybe,Carly Rae Jepsen,Pop,2012,12.8, https://i.scdn.co/image/ab67616d0000b273d3ee4bf67c2ac2154006ad72
-93,We Are Young,fun. ft. Janelle Monáe,Pop,2011,16.8, https://cdn-images.dzcdn.net/images/cover/5f7bd91e2d91ce2d308ee754d6821ff7/500x500.jpg
-94,Get Lucky,Daft Punk ft. Pharrell Williams,Pop,2013,24.7, https://i.discogs.com/aaf_1a83-JxTZ3vnnYJZuZWAEFWyymiIJp4n8uDUpPo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NzU1/MzYtMTM3MTg5MTEx/My0zMjk1LmpwZWc.jpeg
-95,Happy,Pharrell Williams,Pop,2013,15.5, https://upload.wikimedia.org/wikipedia/en/2/23/Pharrell_Williams_-_Happy.jpg
-96,All About That Bass,Meghan Trainor,Pop,2014,12.8, https://cdn-images.dzcdn.net/images/cover/4cd0050ad6354f0ad78ed0aa820759d1/1900x1900-000000-80-0-0.jpg
-97,Thinking Out Loud,Ed Sheeran,Pop,2014,18.8, https://i.scdn.co/image/ab67616d0000b27313b3e37318a0c247b550bccd
-98,See You Again,Wiz Khalifa ft. Charlie Puth,Pop,2015,15.3, https://i.scdn.co/image/ab67616d0000b2734e5df11b17b2727da2b718d8
-99,Hello,Adele,Pop,2015,19.7, https://i.scdn.co/image/ab67616d0000b2737b9888dc365b8f957c63df14
-100,Love Yourself,Justin Bieber,Pop,2015,15.6, https://i.scdn.co/image/ab67616d0000b273c34f510fcf86aae4aad9c305
-101,God's Plan,Drake,Hip-Hop,2018,13.3, https://upload.wikimedia.org/wikipedia/en/9/90/Scorpion_by_Drake.jpg 
-102,HUMBLE.,Kendrick Lamar,Hip-Hop,2017,11.8, https://upload.wikimedia.org/wikipedia/en/5/58/Humble_kendrick_lamar.jpg
-103,N.Y. State of Mind,Nas,Hip-Hop,1994,19.6, https://upload.wikimedia.org/wikipedia/en/2/27/IllmaticNas.jpg
-104,If I Ain't Got You,Alicia Keys,R&B,2003,15.2, https://upload.wikimedia.org/wikipedia/en/1/10/Alicia_Keys_-_If_I_Ain%27t_Got_You_%28single_cover%29.jpg
-105,No Diggity,Blackstreet ft. Dr. Dre,R&B,1996,16.9, https://upload.wikimedia.org/wikipedia/en/b/bc/No_Diggity.jpg
-106,Ordinary People,John Legend,R&B,2005,18.7, https://upload.wikimedia.org/wikipedia/en/8/84/Ordinary_People_single.jpg
-107,La Bicicleta,Shakira & Carlos Vives,Latin,2016,15.1, https://upload.wikimedia.org/wikipedia/en/f/f5/Carlos_Vives_-_La_Bicicleta.jpeg
-108,Bailando,Enrique Iglesias ft. Descemer Bueno & Gente de Zona,Latin,2014,16.1, https://upload.wikimedia.org/wikipedia/en/c/c0/Enriquebailandocover.jpg
-109,Gasolina,Daddy Yankee,Latin,2004,12.9, https://upload.wikimedia.org/wikipedia/en/1/16/Daddy_Yankee_Gasolina_cover_art.png
-110,Three Little Birds,Bob Marley,Reggae,1977,12.0, https://upload.wikimedia.org/wikipedia/en/8/8f/Bob_Marley_Three_Little_Birds.jpg
-111,Is This Love,Bob Marley,Reggae,1978,15.5, https://upload.wikimedia.org/wikipedia/en/f/f8/Is_This_Love_%28Bob_Marley_%26_The_Wailers_single_-_cover_art%29.jpg
-112,Could You Be Loved,Bob Marley & The Wailers,Reggae,1980,16.1, https://upload.wikimedia.org/wikipedia/en/9/9f/CouldYouBeLoved.jpg
-113,The Times They Are A-Changin',Bob Dylan,Folk,1964,12.9, https://upload.wikimedia.org/wikipedia/en/f/f1/Bob_Dylan_-_The_Times_They_Are_a-Changin%27.jpg
-114,Blowin' in the Wind,Bob Dylan,Folk,1963,11.3, https://image.invaluable.com/housePhotos/universityarchives/85/635785/H19845-L158231158_original.jpeg
-115,Fast Car,Tracy Chapman,Folk,1988,19.7, https://upload.wikimedia.org/wikipedia/en/3/30/Fastcar_tchapman.jpg
-116,Jolene,Dolly Parton,Country,1973,10.9, https://upload.wikimedia.org/wikipedia/en/a/ab/Jolene_%28Dolly_Parton_album_-_cover_art%29.jpg
-117,"Take Me Home, Country Roads",John Denver,Country,1971,12.7, https://t2.genius.com/unsafe/516x516/https%3A%2F%2Fimages.genius.com%2Fdacba39a30a776ef9a9f01f338648ca9.500x500x1.jpg
-118,"Ring of Fire",Johnny Cash,Country,1963,10.5, https://t2.genius.com/unsafe/516x516/https%3A%2F%2Fimages.genius.com%2F52aaf7d96fc7cb1e4d63bd0c35c1f4ed.500x499x1.jpg
+dislike_status,track_id,title,artist,genre,release_year,duration,album_cover
+0,1,Billie Jean, Michael Jackson,Pop,1982,19.6, https://i.scdn.co/image/ab67616d0000b2739eb690cb054df293fe7711b8
+0,2,Bohemian Rhapsody,Queen,Rock,1975,23.7, https://upload.wikimedia.org/wikipedia/en/9/9f/Bohemian_Rhapsody.png
+0,4,Hey Jude,The Beatles,Rock,1968,28.7, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTfzIDmqXb6HYuMeHgdSaCnunU7vBc1T8dg&s
+0,5,Shape of You,Ed Sheeran,Pop,2017,15.5, https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png
+0,6,Blinding Lights,The Weeknd,Pop,2019,13.3, https://i.scdn.co/image/ab67616d00001e028863bc11d2aa12b54f5aeb36
+0,7,Stairway to Heaven,Led Zeppelin,Rock,1971,32.1, https://i.scdn.co/image/ab67616d0000b273c8a11e48c91a982d086afc69
+0,8,Sweet Child O' Mine,Guns N' Roses,Rock,1987,23.7, https://i.scdn.co/image/ab67616d0000b27368384dd85fd5e95831252f60
+0,9,Lose Yourself,Eminem,Hip-Hop,2002,21.7, https://i.scdn.co/image/ab67616d0000b273968da85f248a7e7747767801
+0,10,Hotel California,Eagles,Rock,1976,26.1, https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg
+0,11,Imagine,John Lennon,Rock,1971,12.2, https://upload.wikimedia.org/wikipedia/en/6/69/ImagineCover.jpg
+0,12,Thriller,Michael Jackson,Pop,1982,23.8, https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png
+0,13,Rolling in the Deep,Adele,Pop,2010,15.2, https://i.scdn.co/image/ab67616d0000b273744ea41a7c1ae57024752db9
+0,14,Juicy,The Notorious B.I.G.,Hip-Hop,1994,20.1, https://i.scdn.co/image/ab67616d0000b273f7a29d6fe5d39ec9313a19cb
+0,15,Wonderwall,Oasis,Rock,1995,17.2, https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Wonderwall_cover.jpg/250px-Wonderwall_cover.jpg
+0,16,Uptown Funk,Mark Ronson ft. Bruno Mars,Pop,2014,18.0, https://i.scdn.co/image/ab67616d00001e029860171ddfee17f77a570cf6
+0,17,Old Town Road,Lil Nas X ft. Billy Ray Cyrus,Hip-Hop,2019,7.5, https://upload.wikimedia.org/wikipedia/en/1/1c/Old_Town_Road_cover.jpg
+0,18,Someone Like You,Adele,Pop,2011,19.0, https://cdn-images.dzcdn.net/images/cover/8bdaf37e2e7f883e84bbc3462c938293/1900x1900-000000-80-0-0.jpg
+0,19,Bad Guy,Billie Eilish,Pop,2019,12.9, https://cdn-images.dzcdn.net/images/cover/6630083f454d48eadb6a9b53f035d734/1900x1900-000000-81-0-0.jpg
+0,20,Hallelujah,Leonard Cohen,Folk,1984,18.2, https://1265745076.rsc.cdn77.org/1024/jpg/109892-leonard-cohen-hallelujah-songs-from-his-albums-LP-62a198c6c8b06.jpg
+0,21,Creep,Radiohead,Rock,1992,15.9, https://i.scdn.co/image/ab67616d0000b273ec548c00d3ac2f10be73366d
+0,22,All of Me,John Legend,R&B,2013,17.9, https://upload.wikimedia.org/wikipedia/en/4/4f/Allofmejohnlegend.jpg 
+0,23,Despacito,Luis Fonsi & Daddy Yankee,Latin,2017,15.3, https://upload.wikimedia.org/wikipedia/en/thumb/c/c8/Luis_Fonsi_Feat._Daddy_Yankee_-_Despacito_%28Official_Single_Cover%29.png/250px-Luis_Fonsi_Feat._Daddy_Yankee_-_Despacito_%28Official_Single_Cover%29.png
+0,24,One Dance,Drake ft. Wizkid & Kyla,Hip-Hop,2016,11.6, https://i.scdn.co/image/ab67616d0000b2739416ed64daf84936d89e671c
+0,25,Closer,The Chainsmokers ft. Halsey,Pop,2016,16.3, https://upload.wikimedia.org/wikipedia/en/a/a5/Closer_%28featuring_Halsey%29_%28Official_Single_Cover%29_by_The_Chainsmokers.png
+0,26,Sicko Mode,Travis Scott,Hip-Hop,2018,20.8, https://cdn-images.dzcdn.net/images/cover/75bfbbb2e58d5bc3d701416a3744aa7f/1900x1900-000000-81-0-0.jpg
+0,27,Gangnam Style,PSY,Pop,2012,14.6, https://upload.wikimedia.org/wikipedia/en/a/ad/Gangnam_Style_Official_Cover.png
+0,28,Roar,Katy Perry,Pop,2013,14.9, https://upload.wikimedia.org/wikipedia/en/4/41/Katy_Perry_-_Roar.png
+0,29,Shake It Off,Taylor Swift,Pop,2014,14.6, https://upload.wikimedia.org/wikipedia/en/c/c4/Taylor_Swift_-_Shake_It_Off.png
+0,30,Perfect,Ed Sheeran,Pop,2017,17.5, https://i.pinimg.com/736x/9a/22/fb/9a22fbaa1c35182063a67cae7913175c.jpg
+0,31,Rockstar,Post Malone ft. 21 Savage,Hip-Hop,2017,14.5, https://i1.sndcdn.com/artworks-000263607755-qq1t0i-t1080x1080.jpg
+0,32,Havana,Camila Cabello ft. Young Thug,Latin,2017,14.5, https://i.scdn.co/image/ab67616d0000b273c977780a05c2fd140690dd57
+0,33,Sunflower,Post Malone & Swae Lee,Hip-Hop,2018,10.5, https://i.discogs.com/O8uwisZ9jCE0i7BKiymorpxS01gBlYZoR0m0ceVptWM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDI3/NTM5LTE1NTg4NTE5/NTYtMzUwNi5qcGVn.jpeg
+0,34,Believer,Imagine Dragons,Rock,2017,13.6, https://i1.sndcdn.com/artworks-000231891000-378ga8-t500x500.jpg
+0,35,Thank U Next,Ariana Grande,Pop,2018,14.1, "https://m.media-amazon.com/images/I/814KlPEfgOL._UF894,1000_QL80_.jpg"
+0,36,7 Rings,Ariana Grande,Pop,2019,11.9, https://upload.wikimedia.org/wikipedia/en/b/b7/Ariana_Grande_-_7_rings.png
+0,37,Dance Monkey,Tones and I,Pop,2019,13.9, https://i.discogs.com/_KoHXhggprt47rMsoCJ2Ei-PoQoR5G8Pe4Qxgcp9CYo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDM2/NDAyLTE1NzQ1MDU2/MzMtNzY3OS5qcGVn.jpeg
+0,38,Watermelon Sugar,Harry Styles,Pop,2019,11.6, https://cdn-images.dzcdn.net/images/cover/346c524c15ecccbc4a8a78e8972a352c/1900x1900-000000-81-0-0.jpg
+0,39,Levitating,Dua Lipa,Pop,2020,13.5, https://cdn-images.dzcdn.net/images/cover/3c5cd0eb919ff9a7767b8ac7acc89e40/500x500.jpg
+0,40,Stay,The Kid LAROI & Justin Bieber,Pop,2021,9.4, https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/The_Kid_Laroi_and_Justin_Bieber_-_Stay.png/250px-The_Kid_Laroi_and_Justin_Bieber_-_Stay.png
+0,41,Heat Waves,Glass Animals,Rock,2020,15.9, https://cdn-images.dzcdn.net/images/cover/3d52a97863dd2f498255a45ff3c7e08c/0x1900-000000-80-0-0.jpg
+0,42,Industry Baby,Lil Nas X ft. Jack Harlow,Hip-Hop,2021,14.1, https://www.hotnewhiphop.com/wp-content/uploads/cover/58/90/1633789058_82ec412dc8405fb9eb9a9170d24f9700.jpg
+0,43,As It Was,Harry Styles,Pop,2022,11.1, https://cdn-images.dzcdn.net/images/cover/b0e936124f59e669ddba02ebe5893f95/0x1900-000000-80-0-0.jpg
+0,44,Anti-Hero,Taylor Swift,Pop,2022,13.4, https://upload.wikimedia.org/wikipedia/en/b/b9/Taylor_Swift_-_Anti-Hero.png
+0,45,Unholy,Sam Smith & Kim Petras,Pop,2022,10.4, https://www.nme.com/wp-content/uploads/2022/09/SamSmith-Kim-Petras-Unholy-single.jpg
+0,46,Flowers,Miley Cyrus,Pop,2023,13.3, https://i.ebayimg.com/images/g/WRwAAOSwZ-VkCxij/s-l1200.jpg
+0,47,Calm Down,Rema & Selena Gomez,Hip-Hop,2022,15.9, https://upload.wikimedia.org/wikipedia/en/b/b1/Rema_-_Calm_Down.png
+0,48,Kill Bill,SZA,R&B,2022,10.3, https://i.ebayimg.com/images/g/9BcAAOSwFc9mXO9z/s-l400.jpg
+0,49,Creepin',"Metro Boomin, The Weeknd & 21 Savage",R&B,2022,14.7, https://f4.bcbits.com/img/a0686334071_10.jpg
+0,50,Last Night,Morgan Wallen,Country,2023,10.9, https://i.scdn.co/image/ab67616d00001e02c37a94d92b0a874ba2419ed7
+0,51,Like a Prayer,Madonna,Pop,1989,22.8, https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Madonna_-_Like_a_Prayer_album.png/250px-Madonna_-_Like_a_Prayer_album.png
+0,52,Purple Rain,Prince,Rock,1984,33.8, https://i.discogs.com/1-9vxj2VyIKSVZaae-4wALCmhQgkvjBODV1T5KcF1KE/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM4NDcz/NDEtMTQxMzYxODg0/MC04MDIxLmpwZWc.jpeg
+0,53,Johanna,Radiohead ft. Thom Yorke,Rock,2000,20.1, "https://www.rockarchive.com/media/3878/radiohead-rd002kw.jpg?crop=0,0.035929219437707716,0,0.15566334321386866&cropmode=percentage&width=800&height=800&rnd=132491768320000000&overlay=watermark.png&overlay.size=230,20&overlay.position=0,780"
+0,54,November Rain,Guns N' Roses,Rock,1991,35.8, https://i.discogs.com/kb8ABF29tav3JmG4ZaavPtPd0n_DGPL9QYQPTG_4uds/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0NTg5/NzAtMTQ0MTkwMTg1/Ni00MTM4LmpwZWc.jpeg
+0,55,Enter Sandman,Metallica,Rock,1991,22.1, https://i.ytimg.com/vi/CHIWNDAwTqQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAFPyl8iSM6z3brkK3LQLD9so5YcA
+0,56,Never Gonna Give You Up,Rick Astley,Pop,1987,14.3, https://f4.bcbits.com/img/a1231391256_5.jpg
+0,57,Take On Me,a-ha,Pop,1985,15.2, https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Take_On_Me_single_cover.jpg/250px-Take_On_Me_single_cover.jpg
+0,58,Every Breath You Take,The Police,Rock,1983,16.9, https://i.ebayimg.com/images/g/WR8AAOSwQSBm~vIk/s-l1200.jpg
+0,59,Sweet Dreams (Are Made of This),Eurythmics,Pop,1983,14.5, https://i.discogs.com/5L3OjbL_-N3194yl6_ZVEabgKb6MhiOz0iBokRVUB_U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxNzgx/LTExNzA3MTk2MjUu/anBlZw.jpeg
+0,60,Livin' on a Prayer,Bon Jovi,Rock,1986,16.7, https://upload.wikimedia.org/wikipedia/en/c/c6/LivinOnAPrayer%28hq%29.jpg
+0,61,Don't Stop Believin',Journey,Rock,1981,16.7, https://upload.wikimedia.org/wikipedia/en/6/66/Don%27t_Stop_Believin%27.jpg
+0,62,Back in Black,AC/DC,Rock,1980,17.0, https://i.ebayimg.com/images/g/aK8AAOSwVHlez~hV/s-l1200.jpg
+0,63,With or Without You,U2,Rock,1987,19.7, https://i.discogs.com/zzoVIfQnl3OTM3AJto7K27PcYvAjuZOx7_UVLLtyefo/rs:fit/g:sm/q:90/h:528/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwNTQx/MjEtMTQzMzMyODQ1/NC04MTc3LmpwZWc.jpeg
+0,64,I Want to Hold Your Hand,The Beatles,Rock,1963,9.7, https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/03_iwantoholdyourhand.jpg/250px-03_iwantoholdyourhand.jpg
+0,65,Karma Police,Radiohead,Rock,1997,17.7, https://i.discogs.com/LBdqTqBqabd5938HoeMAqsP7EPaTeHyWSl3awQc2ml8/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwMDcx/MjQ5LTE2MzA0NzIx/MjItOTI2OS5qcGVn.jpeg
+0,66,No Woman No Cry,Bob Marley & The Wailers,Reggae,1975,28.6, https://i.discogs.com/z2nNvhQ68bVU5gbT9fu5lwu3mcg0c22cuOZEWwdhDVQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzODUx/MjAtMTI4MDkzMzE0/MS5qcGVn.jpeg
+0,67,Redemption Song,Bob Marley & The Wailers,Reggae,1980,15.4, https://upload.wikimedia.org/wikipedia/en/e/e5/Bob_Marley_and_the_Wailers_-_Redemption_Song.jpg
+0,68,Paranoid Android,Radiohead,Rock,1997,25.7, https://upload.wikimedia.org/wikipedia/en/b/ba/Radioheadokcomputer.png
+0,69,Where Is My Mind?,Pixies,Rock,1988,15.5, https://i1.sndcdn.com/artworks-QkxeE41kyjG9RMQp-UsKPdA-t1080x1080.jpg
+0,70,Black Hole Sun,Soundgarden,Rock,1994,21.0, https://upload.wikimedia.org/wikipedia/en/3/3a/Superunknown.jpg
+0,71,Chop Suey!,System of a Down,Rock,2001,13.4, https://upload.wikimedia.org/wikipedia/en/6/64/SystemofaDownToxicityalbumcover.jpg
+0,72,Mr. Brightside,The Killers,Rock,2004,14.8, https://upload.wikimedia.org/wikipedia/en/thumb/d/d1/Mr.-Brightside.jpg/250px-Mr.-Brightside.jpg
+0,73,Seven Nation Army,The White Stripes,Rock,2003,15.7, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVKKuordOf8x0zIjqRdKlMLvXiadIYYuW1NQ&s
+0,74,Hey Ya!,OutKast,Hip-Hop,2003,15.9, https://upload.wikimedia.org/wikipedia/en/d/d8/Hey_Ya_single_cover.png
+0,75,Clocks,Coldplay,Rock,2002,17.3, https://i.discogs.com/cigAK5wha7SWjrsclw6MXuu1-zuK99q_FRhOwFC_gF0/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE4MTUx/NDMtMTM0Mjg4MjEy/Ny01MTcyLmpwZWc.jpeg
+0,76,In the End,Linkin Park,Rock,2001,14.5, https://upload.wikimedia.org/wikipedia/en/3/3f/LinkinParkIntheEnd.jpg
+0,77,Numb,Linkin Park,Rock,2003,12.5, https://cdn-images.dzcdn.net/images/cover/44df4f6fb2534768f4924365c103d0f7/1900x1900-000000-80-0-0.jpg
+0,78,Umbrella,Rihanna ft. Jay-Z,Pop,2007,18.4, https://cdn-images.dzcdn.net/images/cover/91276466fbc876d96be9e6926060af60/1900x1900-000000-80-0-0.jpg
+0,79,Poker Face,Lady Gaga,Pop,2008,15.8, https://cdn-images.dzcdn.net/images/cover/cc24d60a998e1a296f0c22efa8ddffd2/0x1900-000000-80-0-0.jpg
+0,80,Single Ladies (Put a Ring on It),Beyoncé,R&B,2008,12.9, https://i.scdn.co/image/ab67616d0000b273801c4d205accdba0a468a10b
+0,81,Rehab,Amy Winehouse,R&B,2006,14.3, https://i.scdn.co/image/ab67616d0000b2734b6583b0a1505e40779faec6
+0,82,Crazy in Love,Beyoncé ft. Jay-Z,R&B,2003,15.8, https://i.scdn.co/image/ab67616d0000b27345680a4a57c97894490a01c1
+0,83,Halo,Beyoncé,R&B,2008,16.7, https://i.scdn.co/image/ab67616d0000b273801c4d205accdba0a468a10b
+0,84,Use Somebody,Kings of Leon,Rock,2008,15.3, https://i.scdn.co/image/ab67616d0000b2732519d01c0cca06f134eeadd8
+0,85,Sex on Fire,Kings of Leon,Rock,2008,13.5, https://i.scdn.co/image/ab67616d0000b2732519d01c0cca06f134eeadd8
+0,86,I Gotta Feeling,The Black Eyed Peas,Pop,2009,18.9, https://cdn-images.dzcdn.net/images/cover/ee510b61893be970d7f40308a32326a1/1900x1900-000000-80-0-0.jpg
+0,87,Bad Romance,Lady Gaga,Pop,2009,19.7, https://upload.wikimedia.org/wikipedia/en/4/45/The_Fame_Monster.png
+0,88,Fireflies,Owl City,Pop,2009,15.3, https://upload.wikimedia.org/wikipedia/en/7/79/Owl-city-ocean-eyes-2009.jpg
+0,89,Empire State of Mind,Jay-Z ft. Alicia Keys,Hip-Hop,2009,18.6, https://i.scdn.co/image/ab67616d0000b273fec1b815bb3c50a64a90fd10
+0,90,Tik Tok,Ke$ha,Pop,2009,13.3, https://i.scdn.co/image/ab67616d0000b27365836b344b9d983462d5f1a7
+0,91,Somebody That I Used to Know,Gotye ft. Kimbra,Pop,2011,16.4, https://upload.wikimedia.org/wikipedia/en/c/c1/Gotye_featuring_Kimbra_-_Somebody_That_I_Used_to_Know.png
+0,92,Call Me Maybe,Carly Rae Jepsen,Pop,2012,12.8, https://i.scdn.co/image/ab67616d0000b273d3ee4bf67c2ac2154006ad72
+0,93,We Are Young,fun. ft. Janelle Monáe,Pop,2011,16.8, https://cdn-images.dzcdn.net/images/cover/5f7bd91e2d91ce2d308ee754d6821ff7/500x500.jpg
+0,94,Get Lucky,Daft Punk ft. Pharrell Williams,Pop,2013,24.7, https://i.discogs.com/aaf_1a83-JxTZ3vnnYJZuZWAEFWyymiIJp4n8uDUpPo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2NzU1/MzYtMTM3MTg5MTEx/My0zMjk1LmpwZWc.jpeg
+0,95,Happy,Pharrell Williams,Pop,2013,15.5, https://upload.wikimedia.org/wikipedia/en/2/23/Pharrell_Williams_-_Happy.jpg
+0,96,All About That Bass,Meghan Trainor,Pop,2014,12.8, https://cdn-images.dzcdn.net/images/cover/4cd0050ad6354f0ad78ed0aa820759d1/1900x1900-000000-80-0-0.jpg
+0,97,Thinking Out Loud,Ed Sheeran,Pop,2014,18.8, https://i.scdn.co/image/ab67616d0000b27313b3e37318a0c247b550bccd
+0,98,See You Again,Wiz Khalifa ft. Charlie Puth,Pop,2015,15.3, https://i.scdn.co/image/ab67616d0000b2734e5df11b17b2727da2b718d8
+0,99,Hello,Adele,Pop,2015,19.7, https://i.scdn.co/image/ab67616d0000b2737b9888dc365b8f957c63df14
+0,100,Love Yourself,Justin Bieber,Pop,2015,15.6, https://i.scdn.co/image/ab67616d0000b273c34f510fcf86aae4aad9c305
+0,101,God's Plan,Drake,Hip-Hop,2018,13.3, https://upload.wikimedia.org/wikipedia/en/9/90/Scorpion_by_Drake.jpg 
+0,102,HUMBLE.,Kendrick Lamar,Hip-Hop,2017,11.8, https://upload.wikimedia.org/wikipedia/en/5/58/Humble_kendrick_lamar.jpg
+0,103,N.Y. State of Mind,Nas,Hip-Hop,1994,19.6, https://upload.wikimedia.org/wikipedia/en/2/27/IllmaticNas.jpg
+0,104,If I Ain't Got You,Alicia Keys,R&B,2003,15.2, https://upload.wikimedia.org/wikipedia/en/1/10/Alicia_Keys_-_If_I_Ain%27t_Got_You_%28single_cover%29.jpg
+0,105,No Diggity,Blackstreet ft. Dr. Dre,R&B,1996,16.9, https://upload.wikimedia.org/wikipedia/en/b/bc/No_Diggity.jpg
+0,106,Ordinary People,John Legend,R&B,2005,18.7, https://upload.wikimedia.org/wikipedia/en/8/84/Ordinary_People_single.jpg
+0,107,La Bicicleta,Shakira & Carlos Vives,Latin,2016,15.1, https://upload.wikimedia.org/wikipedia/en/f/f5/Carlos_Vives_-_La_Bicicleta.jpeg
+0,108,Bailando,Enrique Iglesias ft. Descemer Bueno & Gente de Zona,Latin,2014,16.1, https://upload.wikimedia.org/wikipedia/en/c/c0/Enriquebailandocover.jpg
+0,109,Gasolina,Daddy Yankee,Latin,2004,12.9, https://upload.wikimedia.org/wikipedia/en/1/16/Daddy_Yankee_Gasolina_cover_art.png
+0,110,Three Little Birds,Bob Marley,Reggae,1977,12.0, https://upload.wikimedia.org/wikipedia/en/8/8f/Bob_Marley_Three_Little_Birds.jpg
+0,111,Is This Love,Bob Marley,Reggae,1978,15.5, https://upload.wikimedia.org/wikipedia/en/f/f8/Is_This_Love_%28Bob_Marley_%26_The_Wailers_single_-_cover_art%29.jpg
+0,112,Could You Be Loved,Bob Marley & The Wailers,Reggae,1980,16.1, https://upload.wikimedia.org/wikipedia/en/9/9f/CouldYouBeLoved.jpg
+0,113,The Times They Are A-Changin',Bob Dylan,Folk,1964,12.9, https://upload.wikimedia.org/wikipedia/en/f/f1/Bob_Dylan_-_The_Times_They_Are_a-Changin%27.jpg
+0,114,Blowin' in the Wind,Bob Dylan,Folk,1963,11.3, https://image.invaluable.com/housePhotos/universityarchives/85/635785/H19845-L158231158_original.jpeg
+0,115,Fast Car,Tracy Chapman,Folk,1988,19.7, https://upload.wikimedia.org/wikipedia/en/3/30/Fastcar_tchapman.jpg
+0,116,Jolene,Dolly Parton,Country,1973,10.9, https://upload.wikimedia.org/wikipedia/en/a/ab/Jolene_%28Dolly_Parton_album_-_cover_art%29.jpg
+0,117,"Take Me Home, Country Roads",John Denver,Country,1971,12.7, https://t2.genius.com/unsafe/516x516/https%3A%2F%2Fimages.genius.com%2Fdacba39a30a776ef9a9f01f338648ca9.500x500x1.jpg
+0,118,"Ring of Fire",Johnny Cash,Country,1963,10.5, https://t2.genius.com/unsafe/516x516/https%3A%2F%2Fimages.genius.com%2F52aaf7d96fc7cb1e4d63bd0c35c1f4ed.500x499x1.jpg
