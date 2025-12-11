@@ -272,23 +272,26 @@ document.getElementById("imgLike").addEventListener("click", function(){
         if(nextTrack.innerHTML.includes(trackList[i].title)){
             
             // Check if already in likedSongs
-            let alreadyLiked = false;
+            let found = false;
             for(let j = 0; j < likedSongs.length; j++){
                 if(likedSongs[j].title === trackList[i].title){
-                    alreadyLiked = true;
-                    break;
+                    // Correctly remove the specific song by index
+                    likedSongs.splice(j, 1);
+                    console.log('removed', trackList[i].title, 'from liked songs');
+                    imgLike.src='img/like.png';
+                    found = true;
+                    break; // Exit the inner loop after removing
                 }
             }
             
-            // Only add if not already there
-            if(!alreadyLiked){
+            // If not found in likedSongs, add it
+            if (!found) {
                 likedSongs.push(trackList[i]);
                 console.log('added', trackList[i].title, 'to playlist');
-            } else {
-                console.log(trackList[i].title, 'already liked');
                 imgLike.src='img/green thumb.png';
             }
-            break; // important: stop after finding the match
+            
+            break; // Important: stop searching trackList after finding the match
         }  
     }
     console.log('liked Songs:', likedSongs);
@@ -298,6 +301,7 @@ function isLiked(){
 for(let i=0;i<likedSongs.length;i++){
     if(nextTrack.innerHTML.includes(likedSongs[i].title)){
         imgLike.src='img/green thumb.png';
+        break;
     }
 }
 }
