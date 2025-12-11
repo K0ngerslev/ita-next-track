@@ -1,5 +1,5 @@
 dislike_status,track_id,title,artist,genre,release_year,duration,album_cover
-0,1,Billie Jean, Michael Jackson,Pop,1982,19.6, https://i.scdn.co/image/ab67616d0000b2739eb690cb054df293fe7711b8, 
+0,1,Billie Jean, Michael Jackson,Pop,1982,19.6, https://i.scdn.co/image/ab67616d0000b2739eb690cb054df293fe7711b8
 0,2,Bohemian Rhapsody,Queen,Rock,1975,23.7, https://upload.wikimedia.org/wikipedia/en/9/9f/Bohemian_Rhapsody.png
 0,4,Hey Jude,The Beatles,Rock,1968,28.7, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTfzIDmqXb6HYuMeHgdSaCnunU7vBc1T8dg&s
 0,5,Shape of You,Ed Sheeran,Pop,2017,15.5, https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png
@@ -115,4 +115,4 @@ dislike_status,track_id,title,artist,genre,release_year,duration,album_cover
 0,115,Fast Car,Tracy Chapman,Folk,1988,19.7, https://upload.wikimedia.org/wikipedia/en/3/30/Fastcar_tchapman.jpg
 0,116,Jolene,Dolly Parton,Country,1973,10.9, https://upload.wikimedia.org/wikipedia/en/a/ab/Jolene_%28Dolly_Parton_album_-_cover_art%29.jpg
 0,117,"Take Me Home, Country Roads",John Denver,Country,1971,12.7, https://t2.genius.com/unsafe/516x516/https%3A%2F%2Fimages.genius.com%2Fdacba39a30a776ef9a9f01f338648ca9.500x500x1.jpg
-0,118,"Ring of Fire",Johnny Cash,Country,1963,10.5, https://t2.genius.com/unsafe/516x516/https%3A%2F%2Fimages.genius.com%2F52aaf7d96fc7cb1e4d63bd0c35c1f4ed.500x499x1.jpg
+0,118,Ring of Fire,Johnny Cash,Country,1963,10.5, https://t2.genius.com/unsafe/516x516/https%3A%2F%2Fimages.genius.com%2F52aaf7d96fc7cb1e4d63bd0c35c1f4ed.500x499x1.jpg
