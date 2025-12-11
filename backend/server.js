@@ -24,6 +24,7 @@ function onEachRequest(request, response, next) {
 function onServerReady() {
     console.log('Webserver running on port', port);
 }
+
 async function onPostFilter(request,response){
     let filters = request.body;
     if(filters.genres.length>0 && filters.years.length>0){
@@ -58,5 +59,6 @@ async function onPostFilter(request,response){
     response.json(dbResult.rows);
     }
 }
+
 
 

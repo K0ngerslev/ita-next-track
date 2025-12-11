@@ -8,6 +8,9 @@ const img = document.getElementById('toggleImage');
 const shuffle = document.getElementById('shufflePlaylist');
 const liked = document.getElementById('likedPlaylist');
 const audio = document.getElementById('audio');
+const nextTrack = document.getElementById('nextTrack');
+const imgDislike = document.getElementById('imgDislike');
+
 
 
 // 2. Remember if the music is playing or paused
@@ -133,12 +136,6 @@ moveProgressTo(0);
         console.error('Error:', error);
     }
     });
-
-
-
-
-
-
 // 4. When someone clicks anywhere on the progress bar
 if (progressBar) {
     progressBar.addEventListener('click', function (event) {
@@ -277,7 +274,7 @@ document.getElementById("gear").addEventListener("click", function(){
     }
        
 })
-let nextTrack = document.getElementById("nextTrack");
+
 let likedSongs = [];
 
 document.getElementById("imgLike").addEventListener("click", function(){
@@ -373,4 +370,13 @@ function playLikedTracks() {
         console.warn('Error setting audio source for liked track', e);
     }
 }
+const dislikeArray = [];
+document.getElementById('imgDislike').addEventListener('click', function(){
+   for(let i=0;i<trackList.length;i++){
+        if(nextTrack.innerHTML.includes(trackList[i].title)){
+            dislikeArray.push(trackList[i]);
+            trackList.pop(trackList[i]);
+        }
+   } 
+})
 
