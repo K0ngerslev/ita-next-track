@@ -239,6 +239,7 @@ function showCurrentTrack() {
         likeButton.classList.remove('liked');
         likeButton.src = 'img/like.png';
         likeButton.setAttribute('aria-pressed', 'false');
+        imgDislike.src = 'img/dislike.png';
         isLiked();
 
     // Play local file named by track_id if present in /tracks
@@ -359,6 +360,7 @@ function playLikedTracks() {
         likeButton.classList.remove('liked');
         likeButton.src = 'img/like.png';
         likeButton.setAttribute('aria-pressed', 'false');
+        imgDislike.src = 'img/dislike.png';
         isLiked();
     try {
         if (audio && current.track_id) {
@@ -371,11 +373,13 @@ function playLikedTracks() {
     }
 }
 const dislikeArray = [];
-document.getElementById('imgDislike').addEventListener('click', function(){
+imgDislike.addEventListener('click', function(){
    for(let i=0;i<trackList.length;i++){
         if(nextTrack.innerHTML.includes(trackList[i].title)){
             dislikeArray.push(trackList[i]);
-            trackList.pop(trackList[i]);
+            console.log('removed', trackList[i].title, 'from playlist');
+            trackList.splice(i,1);
+            imgDislike.src='img/red thumb.png';
         }
    } 
 })
