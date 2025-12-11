@@ -7,6 +7,7 @@ const timeDisplay = document.getElementById('currentTime');      // shows "00:59
 const img = document.getElementById('toggleImage');
 const shuffle = document.getElementById('shufflePlaylist');
 const liked = document.getElementById('likedPlaylist');
+const audio = document.getElementById('audio');
 
 
 // 2. Remember if the music is playing or paused
@@ -242,6 +243,18 @@ function showCurrentTrack() {
         likeButton.src = 'img/like.png';
         likeButton.setAttribute('aria-pressed', 'false');
         isLiked();
+
+    // Play local file named by track_id if present in /tracks
+    try {
+        if (audio && current.track_id) {
+            const src = `/tracks/${current.track_id}.mp3`;
+            // set audio src and play
+            audio.src = src;
+            audio.play().catch(err => console.warn('audio play error:', err));
+        }
+    } catch (e) {
+        console.warn('Error setting audio source for track_id', e);
+    }
 }
 
 document.getElementById("gear").addEventListener("click", function(){
@@ -350,5 +363,14 @@ function playLikedTracks() {
         likeButton.src = 'img/like.png';
         likeButton.setAttribute('aria-pressed', 'false');
         isLiked();
+    try {
+        if (audio && current.track_id) {
+            const src = `/tracks/${current.track_id}.mp3`;
+            audio.src = src;
+            audio.play().catch(err => console.warn('audio play error:', err));
+        }
+    } catch (e) {
+        console.warn('Error setting audio source for liked track', e);
+    }
 }
 

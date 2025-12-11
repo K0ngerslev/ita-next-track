@@ -1,5 +1,5 @@
 dislike_status,track_id,title,artist,genre,release_year,duration,album_cover
-0,1,Billie Jean, Michael Jackson,Pop,1982,19.6, https://i.scdn.co/image/ab67616d0000b2739eb690cb054df293fe7711b8
+0,1,Billie Jean, Michael Jackson,Pop,1982,19.6, https://i.scdn.co/image/ab67616d0000b2739eb690cb054df293fe7711b8, 
 0,2,Bohemian Rhapsody,Queen,Rock,1975,23.7, https://upload.wikimedia.org/wikipedia/en/9/9f/Bohemian_Rhapsody.png
 0,4,Hey Jude,The Beatles,Rock,1968,28.7, https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqTfzIDmqXb6HYuMeHgdSaCnunU7vBc1T8dg&s
 0,5,Shape of You,Ed Sheeran,Pop,2017,15.5, https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png
