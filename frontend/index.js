@@ -106,7 +106,7 @@ document.getElementById('confirm-btn').addEventListener('click', async function 
     console.log('Selected Filters:', selectedFilters);
 
     try {
-        const response = await fetch('http://localhost:3003/api/filter', {
+        const response = await fetch('https://github.com/K0ngerslev/ita-next-track/api/filter', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
