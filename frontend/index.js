@@ -29,7 +29,7 @@ shuffle.addEventListener('click', function (){
     if (trackList.length > 0) {
         showCurrentTrack();
         musicIsPlaying = true;
-        img.src = "img/pause.png";
+        img.src = 'img/pause.png';
         moveProgressTo(0);
     } else {
         console.log('No tracks in playlist yet');
@@ -50,7 +50,7 @@ liked.addEventListener('click', function (){
     if (likedSongs.length > 0) {
         playLikedTracks();
         musicIsPlaying = true;
-        img.src = "img/pause.png";
+        img.src = 'img/pause.png';
         moveProgressTo(0);
     } else {
         console.log('No liked songs yet');
@@ -70,10 +70,10 @@ if (playButton) {
 
     // Change the text on the button so people know what will happen next
     if (musicIsPlaying) {
-        img.src = "img/pause.png";   // show pause symbol when playing
+        img.src = 'img/pause.png';   // show pause symbol when playing
         if (audio) audio.play().catch(err => console.warn('audio play error:', err));
     } else {
-        img.src = "img/play.png";    // show play symbol when paused
+        img.src = 'img/play.png';    // show play symbol when paused
         if (audio) audio.pause();
     }
     });
@@ -131,7 +131,7 @@ if(playLikedSongs){
 
 // Start playback
 musicIsPlaying = true;
-img.src = "img/pause.png";
+img.src = 'img/pause.png';
 moveProgressTo(0);
 
     } catch (error){
