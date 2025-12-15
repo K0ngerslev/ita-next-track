@@ -70,10 +70,10 @@ if (playButton) {
 
     // Change the text on the button so people know what will happen next
     if (musicIsPlaying) {
-        img.src = 'img/pause.png';   // show pause symbol when playing
+        img.src = '/img/pause.png';   // show pause symbol when playing
         if (audio) audio.play().catch(err => console.warn('audio play error:', err));
     } else {
-        img.src = 'img/play.png';    // show play symbol when paused
+        img.src = '/img/play.png';    // show play symbol when paused
         if (audio) audio.pause();
     }
     });
