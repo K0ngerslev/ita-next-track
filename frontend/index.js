@@ -124,7 +124,6 @@ currentIndex = 0;
 
 // Start showing the first + next track
 if(!playLikedSongs){
-    console.log('hej')
     showCurrentTrack();
 }
 if(playLikedSongs){
@@ -216,9 +215,7 @@ setInterval(function () {
 }
         }
     }
-, 500/5);
-
-
+, 100);
 moveProgressTo(0); 
 
 
@@ -330,7 +327,7 @@ document.getElementById('skip').addEventListener("click",function(){
         showCurrentTrack();
     }
     moveProgressTo(0);
-    console.log('skipped sang');
+    console.log('skipped song');
 })
 
 document.getElementById('previous').addEventListener("click",function(){
@@ -342,7 +339,7 @@ document.getElementById('previous').addEventListener("click",function(){
         showCurrentTrack();
     }
     moveProgressTo(0);
-    console.log('previous sang');
+    console.log('previous song');
 })
 function playLikedTracks() {
     if (!likedSongs.length) return;
