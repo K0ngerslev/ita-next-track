@@ -5,6 +5,8 @@ const progressBar = document.getElementById('progressContainer'); // the gray ba
 const greenProgress = document.getElementById('progress');         // the green part that grows
 const timeDisplay = document.getElementById('currentTime');      // shows "00:59"
 const img = document.getElementById('toggleImage');
+// Set default image
+img.src = 'img/play.png';
 const shuffle = document.getElementById('shufflePlaylist');
 const liked = document.getElementById('likedPlaylist');
 const audio = document.getElementById('audio');
