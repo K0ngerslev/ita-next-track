@@ -6,7 +6,6 @@ const greenProgress = document.getElementById('progress');         // the green 
 const timeDisplay = document.getElementById('currentTime');      // shows "00:59"
 const img = document.getElementById('toggleImage');
 // Set default image
-img.src = 'img/play.png';
 const shuffle = document.getElementById('shufflePlaylist');
 const liked = document.getElementById('likedPlaylist');
 const audio = document.getElementById('audio');
