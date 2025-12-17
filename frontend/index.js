@@ -107,7 +107,7 @@ document.getElementById('confirm-btn').addEventListener('click', async function 
     console.log('Selected Filters:', selectedFilters);
 
     try {
-        const response = await fetch('https://ita-next-track-zxpa.onrender.com/api/filter', {
+        const response = await fetch('/api/filter', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -341,6 +341,9 @@ document.getElementById('previous').addEventListener("click",function(){
         currentIndex = (currentIndex - 1 + trackList.length) % trackList.length;
         showCurrentTrack();
     }
+    musicIsPlaying = true;
+    img.src = 'img/pause.jpg';
+    if (audio) audio.play().catch(err => console.warn('audio play error:', err));
     moveProgressTo(0);
     console.log('previous song');
 })
