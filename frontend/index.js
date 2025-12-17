@@ -325,6 +325,10 @@ document.getElementById('skip').addEventListener("click",function(){
         currentIndex = (currentIndex + 1) % trackList.length;
         showCurrentTrack();
     }
+    // Make sure skipping actually starts playback and updates UI
+    musicIsPlaying = true;
+    img.src = 'img/pause.jpg';
+    if (audio) audio.play().catch(err => console.warn('audio play error:', err));
     moveProgressTo(0);
     console.log('skipped song');
 })
