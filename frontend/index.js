@@ -1,11 +1,9 @@
 console.log('index.js loaded');
-// 1. Get the buttons and bars we need to control
-const playButton = document.getElementById('playPause');        // the big play/pause button
-const progressBar = document.getElementById('progressContainer'); // the gray bar you click on
-const greenProgress = document.getElementById('progress');         // the green part that grows
-const timeDisplay = document.getElementById('currentTime');      // shows "00:59"
+const playButton = document.getElementById('playPause');       
+const progressBar = document.getElementById('progressContainer'); 
+const greenProgress = document.getElementById('progress');         
+const timeDisplay = document.getElementById('currentTime');      
 const img = document.getElementById('toggleImage');
-// Set default image
 const shuffle = document.getElementById('shufflePlaylist');
 const liked = document.getElementById('likedPlaylist');
 const audio = document.getElementById('audio');
@@ -14,10 +12,11 @@ const imgDislike = document.getElementById('imgDislike');
 
 
 
-// 2. Remember if the music is playing or paused
+//Pauses the music at start and sets the mode to shuffle
 let musicIsPlaying = false;
 let playLikedSongs = false;
 
+//shuffle mode
 shuffle.addEventListener('click', function (){
     playLikedSongs=false
     shuffle.classList.add('clicked');
@@ -25,7 +24,6 @@ shuffle.addEventListener('click', function (){
     liked.classList.remove('clicked');
     }
     
-    // Revert back to normal playlist
     currentIndex = 0;
     if (trackList.length > 0) {
         showCurrentTrack();
@@ -38,15 +36,15 @@ shuffle.addEventListener('click', function (){
     
     console.log(playLikedSongs)
 });
+
+//Like mode 
 liked.addEventListener('click', function (){
     playLikedSongs=true
     liked.classList.add('clicked');
     if(shuffle.classList.contains('clicked')){
     shuffle.classList.remove('clicked');
     }
-        
-    
-    // Start playing liked songs
+
     currentIndex = 0;
     if (likedSongs.length > 0) {
         playLikedTracks();
@@ -60,10 +58,10 @@ liked.addEventListener('click', function (){
     console.log(playLikedSongs);
 })
 
-let trackList = [];       // all filtered tracks from server
-let currentIndex = 0;     // which song we are on
+let trackList = [];       // All tracks we got back from the web server
+let currentIndex = 0;     // What song we are on
 
-// 3. When someone clicks the Play/Pause button
+// When someone clicks the Play/Pause button
 if (playButton) {
     playButton.addEventListener('click', function () {
     // Switch between playing and paused
@@ -72,15 +70,14 @@ if (playButton) {
     // Change the text on the button so people know what will happen next
     if (musicIsPlaying) {
         img.src = 'img/pause.jpg';   // show pause symbol when playing
-        if (audio) audio.play().catch(err => console.warn('audio play error:', err));
+        if (audio) audio.play().catch(err => console.warn('audio play error:', err)); //display error if the audio doesn't work
     } else {
         img.src = 'img/play.png';    // show play symbol when paused
         if (audio) audio.pause();
     }
     });
 } 
-
-
+//like button Css
 const likeButton = document.getElementById('imgLike');
 if (likeButton) {
     likeButton.addEventListener('click', () => {
@@ -92,12 +89,14 @@ if (likeButton) {
     });
 } 
 
-    
+//Sending the filters to the web server
 document.getElementById('confirm-btn').addEventListener('click', async function (){
-    const selectedFilters = {
-        genres: [],
+    const selectedFilters = { //creates a dictionary with two arrays for year and genre filters
+        genres: [], 
         years: []
     };
+
+    //Gets all the selected gernes and years and puts them into the dictionary
     document.querySelectorAll('#genres input[type="checkbox"]:checked').forEach(checkbox => {
         selectedFilters.genres.push(checkbox.value);
     });
@@ -105,26 +104,27 @@ document.getElementById('confirm-btn').addEventListener('click', async function 
         selectedFilters.years.push(checkbox.value);
     });
     console.log('Selected Filters:', selectedFilters);
-
+    //Sends a http with some json to the web server
     try {
         const response = await fetch('/api/filter', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
             },
-            body: JSON.stringify(selectedFilters)
+            body: JSON.stringify(selectedFilters) //the body is the selectedFilters as Json
         });
         if (!response.ok) throw new Error('Network error');
-        const data = await response.json();
+        const data = await response.json(); //retrives the data back from the web server
 console.log('Results', data);
 
 trackList = data;
 currentIndex = 0;
 
-// Start showing the first + next track
+// Starts showing the first and next track in shuffle mode
 if(!playLikedSongs){
     showCurrentTrack();
 }
+// Starts showing the first and next track in liked mode
 if(playLikedSongs){
     playLikedTracks();
 }
@@ -138,7 +138,7 @@ moveProgressTo(0);
         console.error('Error:', error);
     }
     });
-// 4. When someone clicks anywhere on the progress bar
+// When someone clicks anywhere on the progress bar
 if (progressBar) {
     progressBar.addEventListener('click', function (event) {
     // Find out exactly where they clicked
@@ -160,7 +160,7 @@ if (progressBar) {
 }
  let totalSongSeconds = 20;
 
-// 5. A helper function that moves the green bar and updates the time
+// A helper function that moves the green bar and updates the time
 function moveProgressTo(percent) {
     greenProgress.style.width = percent + '%';  // make green bar this wide
 
@@ -184,7 +184,7 @@ function moveProgressTo(percent) {
 
 
 
-// 6. Make the song "play" automatically so you can see the bar move
+// Make the song "play" automatically so you can see the bar move
 // This runs every half second (500 milliseconds)
 setInterval(function () {
     if (musicIsPlaying) {
@@ -218,10 +218,11 @@ setInterval(function () {
 moveProgressTo(0); 
 
 
-
+//shuffle mode function
 function showCurrentTrack() {
     if (!trackList.length) return;
 
+    //we first declare the first adn next track using trackList and currentIndex
     const current = trackList[currentIndex];
     const next = trackList[(currentIndex + 1) % trackList.length];
 
@@ -248,13 +249,14 @@ function showCurrentTrack() {
             const src = `/tracks/${current.track_id}.mp3`;
             // set audio src and play
             audio.src = src;
-            audio.play().catch(err => console.warn('audio play error:', err));
+            audio.play().catch(err => console.warn('audio play error:', err));//if there are any errors it lets us know
         }
     } catch (e) {
         console.warn('Error setting audio source for track_id', e);
     }
 }
 
+//shows and hides the filters and the confirm button
 document.getElementById("gear").addEventListener("click", function(){
     const filters = document.getElementById("filters");
     const confirm = document.getElementById('confirm-btn');
@@ -278,6 +280,7 @@ document.getElementById("gear").addEventListener("click", function(){
 
 let likedSongs = [];
 
+//Like a song
 document.getElementById("imgLike").addEventListener("click", function(){
     for(let i = 0; i < trackList.length; i++){
         if(nextTrack.innerHTML.includes(trackList[i].title)){
@@ -302,12 +305,12 @@ document.getElementById("imgLike").addEventListener("click", function(){
                 imgLike.src='img/green thumb.png';
             }
             
-            break; // Important: stop searching trackList after finding the match
+            break; // stop searching trackList after finding the match
         }  
     }
     console.log('liked Songs:', likedSongs);
 });
-//tjekker om en sang allerede er liked
+//function that checks if the next song is already liked, and if so it turns the like button green
 function isLiked(){
 for(let i=0;i<likedSongs.length;i++){
     if(nextTrack.innerHTML.includes(likedSongs[i].title)){
@@ -316,7 +319,7 @@ for(let i=0;i<likedSongs.length;i++){
     }
 }
 }
-//skip sang
+//skip song 
 document.getElementById('skip').addEventListener("click",function(){
     if(playLikedSongs){
         currentIndex = (currentIndex + 1) % likedSongs.length;
@@ -332,7 +335,7 @@ document.getElementById('skip').addEventListener("click",function(){
     moveProgressTo(0);
     console.log('skipped song');
 })
-
+//previous song
 document.getElementById('previous').addEventListener("click",function(){
     if(playLikedSongs){
         currentIndex = (currentIndex - 1 + likedSongs.length) % likedSongs.length;
@@ -341,6 +344,7 @@ document.getElementById('previous').addEventListener("click",function(){
         currentIndex = (currentIndex - 1 + trackList.length) % trackList.length;
         showCurrentTrack();
     }
+    //starts the song and updates the UI
     musicIsPlaying = true;
     img.src = 'img/pause.jpg';
     if (audio) audio.play().catch(err => console.warn('audio play error:', err));
@@ -369,7 +373,7 @@ function playLikedTracks() {
         likeButton.setAttribute('aria-pressed', 'false');
         imgDislike.src = 'img/dislike.png';
         isLiked();
-    try {
+    try { // Play local file named by track_id if present in /tracks
         if (audio && current.track_id) {
             const src = `/tracks/${current.track_id}.mp3`;
             audio.src = src;
@@ -379,6 +383,7 @@ function playLikedTracks() {
         console.warn('Error setting audio source for liked track', e);
     }
 }
+//dislike song
 const dislikeArray = [];
 imgDislike.addEventListener('click', function(){
    for(let i=0;i<trackList.length;i++){

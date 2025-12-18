@@ -8,7 +8,6 @@ const port = process.env.PORT || 3003;
 const server = express();
 
 server.use(express.static('frontend'));
-// serve mp3 files placed in db/tracks at /tracks/<file>
 server.use('/tracks', express.static('db/tracks'));
 server.use(express.json());
 server.use(onEachRequest);
